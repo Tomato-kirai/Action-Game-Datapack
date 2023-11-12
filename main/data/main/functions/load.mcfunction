@@ -43,6 +43,7 @@ scoreboard objectives add player.quest_start trigger
 scoreboard objectives add player.quest_progress dummy
 scoreboard objectives add player.leave_game custom:leave_game
 scoreboard objectives add player.max_entered_level dummy
+scoreboard objectives add player.pos_y dummy
 
 scoreboard objectives add player.magic_book.fire.shift_cooldown dummy
 scoreboard objectives add player.magic_book.wind.shift_cooldown dummy
