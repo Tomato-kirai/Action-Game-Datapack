@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "main:world/level/init/level_5"
+  }
+}
