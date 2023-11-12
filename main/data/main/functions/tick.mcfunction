@@ -14,6 +14,8 @@ execute as @e[type=item] at @s run function main:world/entity/item/main
 
 #execute as @e[tag=DamageDisplay] at @s run function main:world/entity/damage_display/main
 
+execute as @e[type=fireball] at @s run function main:world/entity/fireball/main
+
 execute as @e[type=armor_stand] if entity @s[tag=SpawnArea] at @s run function main:world/spawn_area/marker/main
 
 execute as @e[type=text_display] if entity @s[tag=DamageDisplay] at @s run function main:world/entity/damage_display/main
