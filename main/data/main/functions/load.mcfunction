@@ -9,6 +9,7 @@ scoreboard objectives add game.set_max_health dummy
 scoreboard objectives add game.spawn_random dummy
 scoreboard objectives add game.summoned_boss dummy
 
+scoreboard objectives add player.trigger.clear_change_log trigger
 
 scoreboard objectives add player.status.max_health dummy
 scoreboard objectives add player.status.d_max_health dummy

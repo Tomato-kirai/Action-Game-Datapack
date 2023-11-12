@@ -57,5 +57,7 @@ execute if entity @s[tag=HasTelepearl] unless entity @s[nbt={SelectedItem:{tag:{
 # リスポーンタイマー (初期化・再計算処理の遅延)
 execute if score @s player.respawn_timer matches 0.. run function main:world/entity/player/death/respawn_timer
 
+#チェンジログクリア
+execute if score @s player.trigger.clear_change_log matches 1.. run function main:pack/change_log/clear_change_log
 
 #execute if entity @s[tag=RevokeRootAdvancements] run advancement revoke @s through main:advancements/root
