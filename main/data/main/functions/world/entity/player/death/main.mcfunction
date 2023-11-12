@@ -19,6 +19,7 @@ function main:world/entity/player/init/level_and_gold
 
 tag @s remove AttackedStrayBoss
 tag @s remove AttackedArrowBoss
+tag @s remove AttackedPurpleBlockBoss
 
 
 scoreboard players set @s player.respawn_timer 20

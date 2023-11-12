@@ -9,6 +9,7 @@ execute store result score @s monster.max_health run data get entity @s Health
 execute if entity @s[tag=Boss,tag=Level1] run function main:world/entity/monster/init/boss/level_1
 execute if entity @s[tag=Boss,tag=Level3] run function main:world/entity/monster/init/boss/level_3
 execute if entity @s[tag=Boss,tag=Understanding] run function main:world/entity/monster/init/boss/understanding
+execute if entity @s[tag=Boss,tag=Level5] run function main:world/entity/monster/init/boss/level_5
 
 execute if entity @s[tag=Monster,tag=Assassin] run function main:world/entity/monster/init/assassin
 execute if entity @s[tag=Monster,tag=ImpactArrow] run function main:world/entity/monster/init/impact_arrow

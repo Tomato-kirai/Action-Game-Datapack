@@ -34,3 +34,4 @@ execute if entity @s[tag=Cloud] run function main:world/entity/monster/ai/cloud/
 execute if entity @s[tag=Impact] run function main:world/entity/monster/ai/impact/main
 execute if entity @s[tag=ImpactArrow] run function main:world/entity/monster/ai/impact/arrow/main
 execute if entity @s[tag=PurpleEntity] run function main:world/entity/monster/ai/purple_entity/main
+execute if entity @s[tag=PurpleBlock] run function main:world/entity/monster/ai/purple_block/main

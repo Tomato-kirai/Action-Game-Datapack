@@ -69,6 +69,7 @@ scoreboard objectives add monster.understanding.shoot_cooldown dummy
 scoreboard objectives add monster.assault.timer dummy
 scoreboard objectives add monster.pistol.timer dummy
 scoreboard objectives add monster.purple_entity.hit_count dummy
+scoreboard objectives add monster.purple_block.timer dummy
 
 scoreboard objectives add damage_display.age dummy
 
@@ -91,3 +92,4 @@ scoreboard objectives add item.revolver.ammo dummy
 bossbar add boss:stray {"text": "Stray"}
 bossbar add boss:arrow {"text": "Arrow"}
 bossbar add boss:understanding {"text": "Understanding"}
+bossbar add boss:purple_block {"text": "Purple Block Core"}
