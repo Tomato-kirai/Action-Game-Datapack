@@ -1,0 +1,16 @@
+{
+        "criteria": {
+          "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+              "entity": {
+                "nbt": "{Tags:[\"Monster\",\"Boss\",\"Arrow\",\"Level3\"]}"
+              }
+            }
+          }
+        },
+        "rewards": {
+          "function": "main:world/entity/player/attacked_boss/arrow"
+        }
+      }
+      

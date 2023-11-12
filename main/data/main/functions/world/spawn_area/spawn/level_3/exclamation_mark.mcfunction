@@ -1,0 +1,3 @@
+#> main:world/spawn_area/spawn/level_3/exclamation_mark
+
+summon skeleton ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"main:monster/level_3/generic",Health:80f,Tags:["Monster","ExclamationMark","Level3"],CustomName:'{"text":"マーク・エクスクラメーション","color":"white","italic":false}',HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{trash:1b}},{id:"minecraft:torch",Count:1b,tag:{trash:1b}}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{trash:1b,SkullOwner:"MHF_Exclamation"}}],Attributes:[{Name:"generic.max_health",Base:80}]}

@@ -1,0 +1,26 @@
+{
+        "criteria": {
+          "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{beginners_cap:1b}"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "rewards": {
+          "function": "main:world/item/armor/beginners_cap/func/main"
+        }
+      }
+      

@@ -1,0 +1,3 @@
+#> main:world/spawn_area/spawn/level_3/arrow
+
+execute unless entity @e[tag=Boss,tag=Arrow] run summon skeleton 207 -51 518 {CustomNameVisible:1b,DeathLootTable:"main:monster/level_3/arrow",Health:500f,Tags:["Monster","Boss","Arrow","Level3"],CustomName:'{"text":"アロー・アロー","color":"white","italic":false}',HandItems:[{id:"minecraft:bow",Count:1b},{}],ArmorItems:[{},{},{},{id:"minecraft:target",Count:1b,tag:{trash:1b}}],Attributes:[{Name:"generic.max_health",Base:500},{Name:"generic.follow_range",Base:90}],Rotation:[90f,0f]}

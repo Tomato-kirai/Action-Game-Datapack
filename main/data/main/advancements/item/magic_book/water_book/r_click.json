@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "player.mp": {
+                "min": 33
+              }
+            }
+          }
+        ],
+        "item": {
+          "nbt": "{magic_book:{magic:\"water\"}}"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"MagicBookInteraction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:world/item/magic_book/water_book/func/r_click/click"
+  }
+}

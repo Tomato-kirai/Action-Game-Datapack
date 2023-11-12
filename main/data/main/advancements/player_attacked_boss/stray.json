@@ -1,0 +1,16 @@
+{
+        "criteria": {
+          "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+              "entity": {
+                "nbt": "{Tags:[\"Monster\",\"Boss\",\"Stray\",\"Level1\"]}"
+              }
+            }
+          }
+        },
+        "rewards": {
+          "function": "main:world/entity/player/attacked_boss/stray"
+        }
+      }
+      

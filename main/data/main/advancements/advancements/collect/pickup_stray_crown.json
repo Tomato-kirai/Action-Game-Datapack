@@ -1,0 +1,27 @@
+{
+        "display": {
+          "icon": {
+            "item": "minecraft:diamond_helmet"
+          },
+          "title": "王冠?",
+          "description": "銀世界の王の証を拾う",
+          "frame": "task",
+          "show_toast": true,
+          "announce_to_chat": false,
+          "hidden": false
+        },
+        "parent": "main:advancements/collect/pickup_xp_and_gold",
+        "criteria": {
+          "xp": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "nbt": "{stray_crown:1b}"
+                }
+              ]
+            }
+          }
+        }
+      }
+      

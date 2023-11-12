@@ -1,0 +1,3 @@
+#> main:world/spawn_area/spawn/level_1/stray
+
+execute unless entity @e[tag=Boss,tag=Stray] run summon stray -5 -57 295 {CustomNameVisible:1b,DeathLootTable:"main:monster/level_1/stray",Health:250f,Tags:["Monster","Boss","Stray","Level1"],CustomName:'{"text":"ストレイ","color":"white","italic":false}',HandItems:[{id:"minecraft:golden_axe",Count:1b},{}],ArmorItems:[{},{},{},{id:"minecraft:diamond_helmet",Count:1b,tag:{display:{Name:'{"text":"銀世界の王の証","color":"gold","bold":false,"italic":false}'},HideFlags:166,Unbreakable:1b,stray_crown:1b,Trim:{material:"minecraft:gold",pattern:"minecraft:eye"}}}],ArmorDropChances:[0.085F,0.085F,0.085F,1.0F],Attributes:[{Name:"generic.max_health",Base:250},{Name:"generic.follow_range",Base:90}]}

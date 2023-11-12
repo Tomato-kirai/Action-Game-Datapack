@@ -1,0 +1,36 @@
+{
+        "pools": [
+          {
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:cookie",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  },
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{enchanted_cookie:1b,Enchantments:[{}]}"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "entity": "this",
+                    "name": {
+                      "text": "エンチャントされたクッキー",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+      

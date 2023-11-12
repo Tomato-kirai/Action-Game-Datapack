@@ -1,0 +1,3 @@
+#> main:world/spawn_area/spawn/level_3/question_mark
+
+summon skeleton ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"main:monster/level_3/generic",Health:60f,Tags:["Monster","QuestionMark","Level3"],CustomName:'{"text":"マーク・クエスチョン","color":"white","italic":false}',HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{trash:1b}},{id:"minecraft:green_shulker_box",Count:1b,tag:{display:{Name:'{"text":"疑問","color":"dark_green","bold":false,"italic":false}'},question:1b}}],HandDropChances:[0.085F,0.200F],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{trash:1b,SkullOwner:"MHF_Question"}}],Attributes:[{Name:"generic.max_health",Base:60}]}

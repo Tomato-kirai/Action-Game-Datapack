@@ -1,0 +1,3 @@
+#> main:world/spawn_area/spawn/level_2/zombie
+
+summon zombie ~ ~ ~ {Tags:["Monster","RiverZombie","Level2"],Health:50f,HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{trash:1b}},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1b,tag:{trash:1b}}],Attributes:[{Name:"generic.max_health",Base:50}],DeathLootTable:"main:monster/level_2/generic",CustomName:'{"text": "剣士ゾンビ","italic": false,"color": "white"}',CustomNameVisible:1b}

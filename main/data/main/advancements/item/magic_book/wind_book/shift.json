@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              },
+              "equipment": {
+                "mainhand": {
+                  "nbt": "{magic_book:{magic:\"wind\"}}"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "player.magic_book.wind.shift_cooldown": {
+                "max": 0
+              },
+              "player.magic_book.wind.activation_timer": {
+                "max": 0
+              },
+              "player.mp": {
+                "min": 500
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:world/item/magic_book/wind_book/func/shift/main"
+  }
+}

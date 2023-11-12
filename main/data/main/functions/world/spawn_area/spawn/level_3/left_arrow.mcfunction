@@ -1,0 +1,3 @@
+#> main:world/spawn_area/spawn/level_3/left_arrow
+
+summon skeleton ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"main:monster/level_3/generic",Health:60f,Tags:["Monster","LeftArrow","Level3"],CustomName:'{"text":"アロー・レフト","color":"white","italic":false}',HandItems:[{id:"minecraft:bow",Count:1b,tag:{trash:1b}},{id:"minecraft:arrow",Count:1b,tag:{trash:1b}}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{trash:1b,SkullOwner:"MHF_ArrowLeft"}}],Attributes:[{Name:"generic.max_health",Base:60}],LeftHanded:1b}

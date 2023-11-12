@@ -1,0 +1,50 @@
+{
+        "display": {
+          "icon": {
+            "item": "minecraft:green_shulker_box"
+          },
+          "title": [
+            {
+              "text": "L"
+            },
+            {
+              "text": "obotomy ",
+              "obfuscated": true
+            },
+            {
+              "text": "C",
+              "obfuscated": false
+            },
+            {
+              "text": "orporation",
+              "obfuscated": true
+            }
+          ],
+          "description": [
+            {
+              "text": "理解を倒す ",
+              "color": "green"
+            },
+            {
+              "text": "あるゲームの試練が元ネタです",
+              "color": "gray"
+            }
+          ],
+          "frame": "challenge",
+          "show_toast": true,
+          "announce_to_chat": false,
+          "hidden": true
+        },
+        "parent": "main:advancements/combat/kill_entity_with_fire_book",
+        "criteria": {
+          "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+              "entity": {
+                "nbt": "{Tags:[\"Monster\",\"Boss\",\"Understanding\"]}"
+              }
+            }
+          }
+        }
+      }
+      
