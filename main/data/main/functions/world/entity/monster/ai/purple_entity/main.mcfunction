@@ -5,3 +5,5 @@ execute if entity @e[type=shulker_bullet,distance=..1.1,sort=nearest,limit=1] ru
 execute if entity @s[nbt={HurtTime:1s}] run function main:world/entity/monster/ai/purple_entity/hurt
 
 execute if entity @s[nbt={PortalCooldown:0}] run function main:world/entity/monster/ai/purple_entity/attack
+
+execute if entity @s[nbt={AttachFace:1b}] positioned over motion_blocking run tp @s ~ ~ ~
