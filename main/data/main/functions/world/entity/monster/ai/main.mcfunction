@@ -28,3 +28,9 @@ execute if entity @s[tag=Understanding] run function main:world/entity/monster/a
 execute if entity @s[tag=Assault] run function main:world/entity/monster/ai/assault/main
 execute if entity @s[tag=Pistol] run function main:world/entity/monster/ai/pistol/main
 execute if entity @s[tag=Assassin] run function main:world/entity/monster/ai/assassin/main
+
+execute if entity @s[tag=Balloon] run function main:world/entity/monster/ai/balloon/main
+execute if entity @s[tag=Cloud] run function main:world/entity/monster/ai/cloud/main
+execute if entity @s[tag=Impact] run function main:world/entity/monster/ai/impact/main
+execute if entity @s[tag=ImpactArrow] run function main:world/entity/monster/ai/impact/arrow/main
+execute if entity @s[tag=PurpleEntity] run function main:world/entity/monster/ai/purple_entity/main
