@@ -12,5 +12,6 @@ execute if entity @s[tag=Boss,tag=Understanding] run function main:world/entity/
 
 execute if entity @s[tag=Monster,tag=Assassin] run function main:world/entity/monster/init/assassin
 execute if entity @s[tag=Monster,tag=ImpactArrow] run function main:world/entity/monster/init/impact_arrow
+execute if entity @s[tag=Monster,tag=PurpleEntity] run function main:world/entity/monster/init/purple_entity
 
 tag @s add Initialized
