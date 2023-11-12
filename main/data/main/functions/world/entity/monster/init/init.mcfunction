@@ -10,6 +10,7 @@ execute if entity @s[tag=Boss,tag=Level1] run function main:world/entity/monster
 execute if entity @s[tag=Boss,tag=Level3] run function main:world/entity/monster/init/boss/level_3
 execute if entity @s[tag=Boss,tag=Understanding] run function main:world/entity/monster/init/boss/understanding
 
-execute if entity @s[tag=Monster,tag=Assassin] run function main:world/entity/monster/init/boss/assassin
+execute if entity @s[tag=Monster,tag=Assassin] run function main:world/entity/monster/init/assassin
+execute if entity @s[tag=Monster,tag=ImpactArrow] run function main:world/entity/monster/init/impact_arrow
 
 tag @s add Initialized
