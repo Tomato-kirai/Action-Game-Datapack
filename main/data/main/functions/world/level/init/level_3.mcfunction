@@ -4,6 +4,7 @@ advancement revoke @s only main:enter_level/level_0
 advancement revoke @s only main:enter_level/level_1
 advancement revoke @s only main:enter_level/level_2
 advancement revoke @s only main:enter_level/level_4
+advancement revoke @s only main:enter_level/level_5
 
 title @s times 10 40 10
 title @s title {"text": "Level 3"}

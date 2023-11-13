@@ -13,6 +13,6 @@ title @a[distance=..32] times 10 60 10
 title @a[distance=..32] title [{"text": "パープル・ブロック・コアが破壊された"}]
 title @a[distance=..32] subtitle [{"text": "中に入れるようになった"}]
 
-execute as @a[tag=AttackedPurpleBlockBoss] run function main:game/get_boss_reward/purple_block
+execute as @a[tag=AttackedPurpleBlockBoss,distance=..32] run function main:game/get_boss_reward/purple_block
 
 function main:game/boss_reset/purple_block

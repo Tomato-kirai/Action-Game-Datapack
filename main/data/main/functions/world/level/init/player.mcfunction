@@ -11,5 +11,6 @@ xp set @s 130 levels
 
 advancement revoke @s only main:player_attacked_boss/stray
 advancement revoke @s only main:player_attacked_boss/arrow
+advancement revoke @s only main:player_attacked_boss/purple_block
 
 #function main:world/entity/player/init/level_and_gold

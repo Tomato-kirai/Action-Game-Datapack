@@ -70,6 +70,7 @@ scoreboard objectives add monster.assault.timer dummy
 scoreboard objectives add monster.pistol.timer dummy
 scoreboard objectives add monster.purple_entity.hit_count dummy
 scoreboard objectives add monster.purple_block.timer dummy
+scoreboard objectives add monster.purple_block.random dummy
 
 scoreboard objectives add damage_display.age dummy
 

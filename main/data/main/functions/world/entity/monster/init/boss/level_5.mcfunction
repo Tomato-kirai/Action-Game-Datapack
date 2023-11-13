@@ -14,3 +14,5 @@ bossbar set boss:purple_block visible true
 playsound entity.wither.spawn hostile @a ~ ~ ~ 1 1
 
 fill 85 118 576 86 118 575 minecraft:purple_stained_glass
+
+function main:world/entity/monster/ai/purple_block/gen_wall
