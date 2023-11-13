@@ -24,6 +24,7 @@ scoreboard objectives add player.status.d_resistance dummy
 scoreboard objectives add player.status.level dummy
 scoreboard objectives add player.status.xp dummy
 scoreboard objectives add player.status.t_xp dummy
+scoreboard objectives add player.no_entry_timer dummy
 
 scoreboard objectives add player.status.xp_required dummy
 scoreboard players set $const player.status.xp_required 32
