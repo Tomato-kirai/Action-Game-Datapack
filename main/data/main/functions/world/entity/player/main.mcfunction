@@ -62,6 +62,10 @@ execute if score @s player.trigger.clear_change_log matches 1.. run function mai
 
 # pos_y
 execute store result score @s player.pos_y run data get entity @s Pos[1]
-execute if score @s player.pos_y matches 70..85 run function main:world/entity/player/float/main
+execute if score @s player.pos_y matches 70..85 unless entity @s[tag=CantFloat] run function main:world/entity/player/float/main
+
+# cant_float
+execute if entity @s[tag=CantFloat] run function main:world/entity/player/float/cant_float
+execute if entity @s[tag=AddCantFloat] run function main:world/entity/player/float/add_cant_float
 
 #execute if entity @s[tag=RevokeRootAdvancements] run advancement revoke @s through main:advancements/root
