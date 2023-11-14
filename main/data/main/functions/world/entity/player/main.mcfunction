@@ -7,8 +7,8 @@ xp set @s 129 levels
 execute if score @s player.leave_game matches 1.. run function main:game/login_msg/msg
 
 # 進入禁止
-execute if entity @s[gamemode=adventure] unless biome ~ ~ ~ #main:playable run function main:world/entity/player/no_entry/main
-execute if biome ~ ~ ~ #main:playable if score @s player.no_entry_timer matches 1.. run scoreboard players reset @s player.no_entry_timer
+execute if entity @s[gamemode=adventure] unless score @s player.entered_level matches 5 unless biome ~ ~ ~ #main:playable run function main:world/entity/player/no_entry/main
+execute if biome ~ ~ ~ #main:playable unless score @s player.no_entry_timer matches 1.. run scoreboard players set @s player.no_entry_timer 20
 
 # クエスト開始
 execute if score @s player.quest_start matches 1.. run function main:game/quest/start/main
