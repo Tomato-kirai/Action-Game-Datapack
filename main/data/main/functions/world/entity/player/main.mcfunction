@@ -6,6 +6,9 @@ xp set @s 129 levels
 # ゲーム退出
 execute if score @s player.leave_game matches 1.. run function main:game/login_msg/msg
 
+# ディスプレイ
+function main:world/entity/player/display/main
+
 # 進入禁止
 execute if entity @s[gamemode=adventure] unless score @s player.entered_level matches 5 unless biome ~ ~ ~ #main:playable run function main:world/entity/player/no_entry/main
 execute if biome ~ ~ ~ #main:playable unless score @s player.no_entry_timer matches 1.. run scoreboard players set @s player.no_entry_timer 20
@@ -17,9 +20,8 @@ function main:world/entity/player/vector/main
 execute if entity @s[tag=Step] run function main:world/entity/player/landing/step
 execute if entity @s[tag=StepReady] if score @s player.landing_timer matches 1..2 if score @s player.jump matches 1.. run function main:world/entity/player/landing/step_ready
 execute if score @s player.jump matches 1.. run function main:world/entity/player/landing/jump
-execute if score @s player.landing_timer matches 1.. run scoreboard players add @s player.landing_timer 1
-execute if score @s player.landing_timer matches 3.. run tag @s remove StepReady
-execute if score @s player.landing_timer matches 20.. run scoreboard players reset @s player.landing_timer
+execute if score @s player.landing_timer matches 1.. run function main:world/entity/player/landing/landing_timer
+execute if entity @s[tag=DuringStep] if entity @s[nbt={OnGround:1b}] run tag @s remove DuringStep
 
 # クエスト開始
 execute if score @s player.quest_start matches 1.. run function main:game/quest/start/main

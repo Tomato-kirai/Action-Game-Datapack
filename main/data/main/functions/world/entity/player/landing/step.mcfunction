@@ -25,6 +25,7 @@ scoreboard players reset $z delta.api.launch
 
 tag @s remove StepReady
 tag @s remove Step
+tag @s add DuringStep
 
 particle cloud ~ ~0.1 ~ 0.2 0.2 0.2 0.1 10 normal @a
 playsound entity.iron_golem.attack player @a ~ ~ ~ 1 0
