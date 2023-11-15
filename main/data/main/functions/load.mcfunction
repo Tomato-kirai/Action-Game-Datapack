@@ -9,6 +9,9 @@ scoreboard objectives add game.set_max_health dummy
 scoreboard objectives add game.spawn_random dummy
 scoreboard objectives add game.summoned_boss dummy
 
+scoreboard objectives add game.const dummy
+scoreboard players set $100 game.const 100
+
 scoreboard objectives add game.spawn_timer dummy
 
 scoreboard objectives add player.trigger.clear_change_log trigger
@@ -43,6 +46,7 @@ scoreboard players set $100 player.vector.v_temp 100
 scoreboard players set $50 player.vector.v_temp 50
 scoreboard players set $25 player.vector.v_temp 25
 scoreboard players set $10 player.vector.v_temp 10
+scoreboard players set $8 player.vector.v_temp 8
 scoreboard players set $5 player.vector.v_temp 5
 scoreboard players set $2 player.vector.v_temp 2
 
@@ -81,9 +85,12 @@ scoreboard objectives add player.damage_taken custom:damage_taken
 scoreboard players set $const player.damage_taken 10
 
 scoreboard objectives add interaction.life dummy
+scoreboard objectives add health_display.life dummy
 
 scoreboard objectives add monster.max_health dummy
+scoreboard objectives add monster.max_health_x100 dummy
 scoreboard objectives add monster.health dummy
+scoreboard objectives add monster.health_ratio dummy
 scoreboard objectives add monster.damage_taken dummy
 scoreboard objectives add monster.d_health dummy
 scoreboard objectives add monster.arrow.timer dummy

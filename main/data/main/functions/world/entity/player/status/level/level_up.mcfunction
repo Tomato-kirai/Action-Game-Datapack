@@ -7,7 +7,7 @@ scoreboard players add @s player.status.max_health 2
 scoreboard players add @s player.status.damage 1
 
 # 1000倍
-scoreboard players add @s player.status.resistance 10
+#scoreboard players add @s player.status.resistance 10
 scoreboard players add @s player.status.speed 2
 
 scoreboard players set @s player.status.xp 0

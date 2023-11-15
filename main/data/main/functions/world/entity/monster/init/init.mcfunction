@@ -1,10 +1,11 @@
 #> main:world/entity/monster/init/init
 
 execute store result score @s monster.max_health run data get entity @s Health
+execute store result score @s monster.max_health_x100 run data get entity @s Health 100
 
-#summon text_display ~ ~ ~ {Tags:["HealthDisplay"],text:'{"text": "health"}',billboard:"vertical",see_through:true}
-#ride @e[type=text_display,tag=HealthDisplay,predicate=!main:is_vehicle,sort=nearest,limit=1] mount @s
+execute store result score @s monster.health run data get entity @s Health
 
+#execute anchored eyes positioned ^ ^ ^ run summon text_display ~ ~0.9 ~ {text:'[{"text": "❤❤❤❤❤❤❤❤❤❤","color": "red"}]',Tags:["HealthDisplay"],billboard:"vertical",teleport_duration:1}
 
 execute if entity @s[tag=Boss,tag=Level1] run function main:world/entity/monster/init/boss/level_1
 execute if entity @s[tag=Boss,tag=Level3] run function main:world/entity/monster/init/boss/level_3
