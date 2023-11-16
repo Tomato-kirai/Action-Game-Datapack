@@ -6,6 +6,8 @@ execute if predicate main:looking_at/cave_archeologist run scoreboard players se
 
 execute if predicate main:looking_at/snow_dog_man run scoreboard players set @s player.talking_villager_type 3
 
+execute if predicate main:looking_at/arrows_computer run scoreboard players set @s player.talking_villager_type 4
+
 scoreboard players reset @s player.talked_to_villager
 
 scoreboard players set @s player.villager_talking_timer 1

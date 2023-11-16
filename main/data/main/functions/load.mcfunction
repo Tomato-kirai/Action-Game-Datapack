@@ -15,6 +15,7 @@ scoreboard players set $100 game.const 100
 scoreboard objectives add game.spawn_timer dummy
 
 scoreboard objectives add player.trigger.clear_change_log trigger
+#scoreboard objectives add player.trigger.arrows_computer trigger
 
 scoreboard objectives add player.status.max_health dummy
 scoreboard objectives add player.status.d_max_health dummy

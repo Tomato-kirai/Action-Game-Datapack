@@ -1,0 +1,1 @@
+#> main:world/entity/player/talked_to_villager/villager/arrows_computer/show_app
