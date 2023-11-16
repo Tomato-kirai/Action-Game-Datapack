@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"DrinkSpeedPotion\"]}",
+          "effects": {
+            "minecraft:speed": {
+              "amplifier": 3,
+              "visible": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:world/item/utility/speed_potion/func/hurt"
+  }
+}

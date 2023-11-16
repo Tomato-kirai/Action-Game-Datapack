@@ -18,7 +18,7 @@ function main:world/entity/player/vector/main
 
 # ジャンプ and 着地
 execute if entity @s[tag=Step] run function main:world/entity/player/landing/step
-execute if entity @s[tag=StepReady] if score @s player.landing_timer matches 1..2 if score @s player.jump matches 1.. run function main:world/entity/player/landing/step_ready
+execute if entity @s[tag=StepReady] if score @s player.landing_timer matches 1..3 if score @s player.jump matches 1.. run function main:world/entity/player/landing/step_ready
 execute if score @s player.jump matches 1.. run function main:world/entity/player/landing/jump
 execute if score @s player.landing_timer matches 1.. run function main:world/entity/player/landing/landing_timer
 execute if entity @s[tag=DuringStep] if entity @s[nbt={OnGround:1b}] run tag @s remove DuringStep
