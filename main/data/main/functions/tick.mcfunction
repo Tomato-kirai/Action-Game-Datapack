@@ -22,6 +22,8 @@ execute as @e[type=text_display] if entity @s[tag=DamageDisplay] at @s run funct
 
 execute as @e[type=text_display] if entity @s[tag=HealthDisplay] at @s run function main:world/entity/health_display/main
 
-execute as @e[tag=MagicHit] run tag @s remove MagicHit
+execute as @e[type=villager] if entity @s[tag=Villager] at @s run function main:world/entity/villager/main
+
+execute as @e if entity @s[tag=MagicHit] run tag @s remove MagicHit
 
 execute as @e if entity @s[tag=this] run tag @s remove this
