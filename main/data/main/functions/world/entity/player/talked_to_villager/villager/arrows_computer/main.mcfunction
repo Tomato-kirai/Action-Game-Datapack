@@ -91,7 +91,7 @@ execute if score @s player.villager_talking_timer matches 630 run function main:
 
 execute if score @s player.villager_talking_timer matches 650 run function main:world/entity/player/talked_to_villager/villager/arrows_computer/click
 
-execute if score @s player.villager_talking_timer matches 655 run function main:world/entity/player/talked_to_villager/villager/arrows_computer/talk_22
+execute if score @s player.villager_talking_timer matches 655 run function main:world/entity/player/talked_to_villager/villager/arrows_computer/talk_23
 
 
 execute if score @s player.villager_talking_timer matches 700.. run scoreboard players set @s player.villager_talking_timer 701

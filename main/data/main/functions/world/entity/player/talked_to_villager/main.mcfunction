@@ -8,6 +8,8 @@ execute if predicate main:looking_at/snow_dog_man run scoreboard players set @s 
 
 execute if predicate main:looking_at/arrows_computer run scoreboard players set @s player.talking_villager_type 4
 
+execute if predicate main:looking_at/potion_shop run scoreboard players set @s player.talking_villager_type 5
+
 scoreboard players reset @s player.talked_to_villager
 
 scoreboard players set @s player.villager_talking_timer 1
