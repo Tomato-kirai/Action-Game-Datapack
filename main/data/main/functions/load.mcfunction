@@ -89,6 +89,7 @@ scoreboard objectives add interaction.life dummy
 scoreboard objectives add health_display.life dummy
 
 scoreboard objectives add monster.max_health dummy
+scoreboard objectives add monster.level_random dummy
 scoreboard objectives add monster.max_health_x100 dummy
 scoreboard objectives add monster.health dummy
 scoreboard objectives add monster.health_ratio dummy
@@ -102,6 +103,7 @@ scoreboard objectives add monster.pistol.timer dummy
 scoreboard objectives add monster.purple_entity.hit_count dummy
 scoreboard objectives add monster.purple_block.timer dummy
 scoreboard objectives add monster.purple_block.random dummy
+scoreboard objectives add monster.seconds dummy
 
 scoreboard objectives add damage_display.age dummy
 
@@ -125,3 +127,6 @@ bossbar add boss:stray {"text": "Stray"}
 bossbar add boss:arrow {"text": "Arrow"}
 bossbar add boss:understanding {"text": "Understanding"}
 bossbar add boss:purple_block {"text": "Purple Block Core"}
+
+
+forceload add -1 -1 1 1

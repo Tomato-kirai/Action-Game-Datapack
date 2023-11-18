@@ -1,5 +1,15 @@
 #> main:world/entity/monster/init/init
 
+execute store result score @s monster.level_random run random value 1..100
+
+scoreboard players operation @s monster.level_random += @p player.status.level
+
+execute if score @s monster.level_random matches ..20 run function main:world/entity/monster/init/level/lvl_1
+execute if score @s monster.level_random matches 21..80 run function main:world/entity/monster/init/level/lvl_2
+execute if score @s monster.level_random matches 81..120 run function main:world/entity/monster/init/level/lvl_3
+execute if score @s monster.level_random matches 121..160 run function main:world/entity/monster/init/level/lvl_4
+execute if score @s monster.level_random matches 161.. run function main:world/entity/monster/init/level/lvl_5
+
 execute store result score @s monster.max_health run data get entity @s Health
 execute store result score @s monster.max_health_x100 run data get entity @s Health 100
 

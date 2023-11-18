@@ -66,10 +66,10 @@ execute if score @s player.death matches 1.. run function main:world/entity/play
 #execute if data entity @s SelectedItem.tag.wand positioned ~ ~-0.5 ~ anchored eyes positioned ^ ^ ^ run summon interaction ~ ~ ~ {Tags:["WandInteraction","Interaction"]}
 
 # 魔法の本 インタラクション召喚
-execute if data entity @s SelectedItem.tag.magic_book positioned ~ ~-0.5 ~ anchored eyes positioned ^ ^ ^ run function main:world/entity/player/has_magic_book/main
+execute if predicate main:item/magic_book/has_book positioned ~ ~-0.5 ~ anchored eyes positioned ^ ^ ^ run function main:world/entity/player/has_magic_book/main
 
 # テレパール 持ってない判定
-execute if entity @s[tag=HasTelepearl] unless entity @s[nbt={SelectedItem:{tag:{telepearl:1b}}}] run function main:world/item/utility/telepearl/func/reset
+execute if entity @s[tag=HasTelepearl] unless predicate main:item/utility/telepearl/has_telepearl run function main:world/item/utility/telepearl/func/reset
 
 # リスポーンタイマー (初期化・再計算処理の遅延)
 execute if score @s player.respawn_timer matches 0.. run function main:world/entity/player/death/respawn_timer

@@ -2,4 +2,5 @@
 
 tag @s add Locked
 
-data modify entity @s NoAI set value {NoAI:1b}
+data modify entity @s NoAI set value 1b
+data modify entity @s Invulnerable set value 1b
