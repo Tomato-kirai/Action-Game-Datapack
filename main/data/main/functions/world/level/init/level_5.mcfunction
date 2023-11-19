@@ -22,3 +22,4 @@ scoreboard players set @s player.entered_level 5
 function main:world/level/init/player
 
 advancement grant @s only main:advancements/journey/enter_level_5
+advancement revoke @s only main:enter_boss_room/level_5

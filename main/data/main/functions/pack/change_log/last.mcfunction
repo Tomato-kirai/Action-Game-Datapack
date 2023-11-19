@@ -5,9 +5,5 @@ tellraw @s {"text":"チェンジログをクリアする","color":"gray","underl
 
 clear @s written_book{change_log:1b}
 
-function main:pack/change_log/dev/231106a
-function main:pack/change_log/dev/231106b
-function main:pack/change_log/dev/231107a
-function main:pack/change_log/dev/231108a
-function main:pack/change_log/dev/231109a
-function main:pack/change_log/dev/231109b
+function main:pack/change_log/dev/231111a
+function main:pack/change_log/dev/231118a

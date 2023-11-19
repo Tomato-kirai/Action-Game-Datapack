@@ -5,3 +5,5 @@ loot give @s loot main:monster/level_5/purple_block
 
 advancement revoke @s only main:player_attacked_boss/purple_block
 tag @s remove AttackedPurpleBlockBoss
+
+#say a

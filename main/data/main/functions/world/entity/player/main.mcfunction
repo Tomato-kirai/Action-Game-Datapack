@@ -11,7 +11,7 @@ function main:world/entity/player/display/main
 
 # 進入禁止
 execute if entity @s[gamemode=adventure] unless score @s player.entered_level matches 5 unless biome ~ ~ ~ #main:playable run function main:world/entity/player/no_entry/main
-execute if biome ~ ~ ~ #main:playable unless score @s player.no_entry_timer matches 1.. run scoreboard players set @s player.no_entry_timer 20
+execute if biome ~ ~ ~ #main:playable unless score @s player.no_entry_timer matches 60 run scoreboard players set @s player.no_entry_timer 60
 
 # vector
 function main:world/entity/player/vector/main
