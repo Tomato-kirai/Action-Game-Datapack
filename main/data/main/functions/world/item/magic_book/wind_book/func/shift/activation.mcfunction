@@ -9,7 +9,7 @@ execute if score @s player.magic_book.wind.activation_timer matches ..1 run func
 
 tp @s @s
 
-execute as @e[distance=..16,tag=Monster] positioned ~ ~1 ~ run function main:world/item/magic_book/wind_book/func/shift/damage
+execute as @e[distance=..16,tag=Monster,tag=!Boss] positioned ~ ~1 ~ run function main:world/item/magic_book/wind_book/func/shift/damage
 
 playsound minecraft:entity.ender_dragon.flap player @a ~ ~ ~ 1 2
 

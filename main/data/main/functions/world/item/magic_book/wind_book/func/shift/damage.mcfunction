@@ -2,4 +2,4 @@
 
 execute facing ~ ~ ~ run tp @s ^ ^ ^0.5
 
-damage @s 10 mob_attack
+damage @s 7 mob_attack

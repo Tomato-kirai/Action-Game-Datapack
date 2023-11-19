@@ -5,7 +5,7 @@ scoreboard players reset @s player.jump
 #tp @s @s
 
 scoreboard players set $x delta.api.launch 0
-scoreboard players set $y delta.api.launch 2000
+scoreboard players set $y delta.api.launch 300
 scoreboard players set $z delta.api.launch 0
 
 function delta:api/launch_xyz

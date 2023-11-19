@@ -11,6 +11,8 @@ scoreboard objectives add game.summoned_boss dummy
 
 scoreboard objectives add game.const dummy
 scoreboard players set $100 game.const 100
+scoreboard players set $25 game.const 25
+scoreboard players set $2 game.const 2
 
 scoreboard objectives add game.spawn_timer dummy
 
@@ -50,6 +52,8 @@ scoreboard players set $10 player.vector.v_temp 10
 scoreboard players set $8 player.vector.v_temp 8
 scoreboard players set $5 player.vector.v_temp 5
 scoreboard players set $2 player.vector.v_temp 2
+scoreboard players set $-10 player.vector.v_temp -10
+scoreboard players set $-20 player.vector.v_temp -20
 
 scoreboard objectives add player.status.xp_required dummy
 scoreboard players set $const player.status.xp_required 32
