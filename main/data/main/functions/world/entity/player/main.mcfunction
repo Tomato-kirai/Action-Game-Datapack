@@ -10,7 +10,7 @@ execute if score @s player.leave_game matches 1.. run function main:game/login_m
 function main:world/entity/player/display/main
 
 # 進入禁止
-execute if entity @s[gamemode=adventure] unless score @s player.entered_level matches 5 unless biome ~ ~ ~ #main:playable run function main:world/entity/player/no_entry/main
+execute if entity @s[gamemode=adventure] unless entity @s[tag=IsInTeleportHole] unless score @s player.entered_level matches 5 unless biome ~ ~ ~ #main:playable run function main:world/entity/player/no_entry/main
 execute if biome ~ ~ ~ #main:playable unless score @s player.no_entry_timer matches 60 run scoreboard players set @s player.no_entry_timer 60
 
 # vector
@@ -68,8 +68,10 @@ execute if score @s player.death matches 1.. run function main:world/entity/play
 # 魔法の本 インタラクション召喚
 execute if predicate main:item/magic_book/has_book positioned ~ ~-0.5 ~ anchored eyes positioned ^ ^ ^ run function main:world/entity/player/has_magic_book/main
 
-# テレパール 持ってない判定
+# テレパール
 execute if entity @s[tag=HasTelepearl] unless predicate main:item/utility/telepearl/has_telepearl run function main:world/item/utility/telepearl/func/reset
+execute if score @s item.telepearl.exit_location matches 0.. run function main:world/item/utility/telepearl/func/teleport/teleport_hole/main
+
 
 # リスポーンタイマー (初期化・再計算処理の遅延)
 execute if score @s player.respawn_timer matches 0.. run function main:world/entity/player/death/respawn_timer
@@ -84,5 +86,11 @@ execute if score @s player.pos_y matches 70..85 unless entity @s[tag=CantFloat] 
 # cant_float
 execute if entity @s[tag=CantFloat] run function main:world/entity/player/float/cant_float
 execute if entity @s[tag=AddCantFloat] run function main:world/entity/player/float/add_cant_float
+
+# PORTAL
+execute if score @s item.portal.energy matches 1.. unless predicate main:item/utility/portal/has_portal run function main:world/item/utility/portal/func/reset
+
+# パソコン買い物
+execute if score @s player.trigger.arrows_computer_shop matches 1.. run function main:world/entity/player/talked_to_villager/villager/arrows_computer/buy_item/buy_item
 
 #execute if entity @s[tag=RevokeRootAdvancements] run advancement revoke @s through main:advancements/root
