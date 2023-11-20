@@ -21,9 +21,12 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
+                  "flags": {
+                    "is_sneaking": true
+                  },
                   "equipment": {
                     "mainhand": {
-                      "nbt": "{telepearl:1b}"
+                      "nbt": "{portal:1b}"
                     }
                   }
                 }
@@ -35,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "main:world/item/utility/telepearl/func/main"
+    "function": "main:world/item/utility/portal/func/using"
   }
 }

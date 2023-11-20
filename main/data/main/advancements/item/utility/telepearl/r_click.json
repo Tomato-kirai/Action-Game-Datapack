@@ -4,6 +4,16 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
               "player": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{Tags:[\"IsInTeleportHole\"]}"
+                    }
+                  }
+                }
               ],
               "item": {
                 "nbt": "{telepearl:1b}"
