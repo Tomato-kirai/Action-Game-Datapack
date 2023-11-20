@@ -7,4 +7,4 @@ playsound block.beacon.activate block @a ~ ~ ~ 1 2
 
 scoreboard players reset @s game.spawn_timer
 
-say a
+# say a
