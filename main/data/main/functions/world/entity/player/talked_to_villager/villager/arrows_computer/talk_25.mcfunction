@@ -1,5 +1,5 @@
 #> main:world/entity/player/talked_to_villager/villager/arrows_computer/talk_25
 
-tellraw @s {"text": " おすすめ商品:"}
+tellraw @s [{"text":" 商品一覧:\n","color":"white","bold":false,"italic":false},{"text":" 疑問","color":"white","bold":false,"italic":false,"underlined":true,"clickEvent":{"action":"run_command","value":"/trigger player.trigger.arrows_computer_shop set 1"}},{"text":" -10000G\n","color":"gold","bold":false,"italic":false,"underlined":false},{"text":" 回復薬","color":"white","bold":false,"italic":false,"underlined":true,"clickEvent":{"action":"run_command","value":"/trigger player.trigger.arrows_computer_shop set 2"}},{"text":" -500\n","color":"gold","bold":false,"italic":false,"underlined":false},{"text":" 興奮剤","color":"white","bold":false,"italic":false,"underlined":true,"clickEvent":{"action":"run_command","value":"/trigger player.trigger.arrows_computer_shop set 3"}},{"text":" -400","color":"gold","bold":false,"italic":false,"underlined":false}]
 
-playsound ui.button.click player @s ~ ~ ~ 1 2
+function main:world/entity/player/talked_to_villager/reset

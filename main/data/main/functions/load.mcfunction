@@ -17,7 +17,8 @@ scoreboard players set $2 game.const 2
 scoreboard objectives add game.spawn_timer dummy
 
 scoreboard objectives add player.trigger.clear_change_log trigger
-#scoreboard objectives add player.trigger.arrows_computer trigger
+scoreboard objectives add player.trigger.arrows_computer_shop trigger
+scoreboard players enable @a player.trigger.arrows_computer_shop
 
 scoreboard objectives add player.status.max_health dummy
 scoreboard objectives add player.status.d_max_health dummy
@@ -123,6 +124,8 @@ scoreboard objectives add quest.combat.poison_slime_kill_count dummy
 
 scoreboard objectives add item.beginners_cap.wearing_timer dummy
 scoreboard objectives add item.telepearl.location dummy
+scoreboard objectives add item.telepearl.exit_location dummy
+scoreboard objectives add item.portal.energy dummy
 scoreboard objectives add item.revolver.cooldown dummy
 scoreboard objectives add item.revolver.ammo dummy
 
@@ -134,3 +137,4 @@ bossbar add boss:purple_block {"text": "Purple Block Core"}
 
 
 forceload add -1 -1 1 1
+forceload add 2000 -10 2000 90
