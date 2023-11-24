@@ -30,3 +30,5 @@ execute if entity @s[nbt={PortalCooldown:190}] run function main:world/entity/mo
 
 
 execute unless entity @p[distance=..12] run effect give @s speed 1 4 false
+
+particle dust 0.435 0 1 1 ~ ~1 ~ 0.5 0.5 0.5 1 1 normal @a
