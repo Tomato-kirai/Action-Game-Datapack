@@ -7,6 +7,7 @@ execute if entity @s[tag=Level2] run function main:world/entity/monster/ai/level
 execute if entity @s[tag=Level3] run function main:world/entity/monster/ai/level_3
 execute if entity @s[tag=Level4] run function main:world/entity/monster/ai/level_4
 execute if entity @s[tag=Level5] run function main:world/entity/monster/ai/level_5
+execute if entity @s[tag=Level6] run function main:world/entity/monster/ai/level_6
 
 execute if entity @s[tag=SlimeBall] run function main:world/entity/monster/ai/slime/slime_ball/main
 execute if entity @s[tag=FrozenMarker] run function main:world/entity/monster/ai/snow_witch/frozen_marker/main

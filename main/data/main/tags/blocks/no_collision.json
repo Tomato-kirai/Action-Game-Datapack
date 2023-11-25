@@ -5,6 +5,8 @@
         "minecraft:cave_air",
         "minecraft:void_air",
         "minecraft:light",
+        "minecraft:barrier",
+        "minecraft:structure_void",
         "minecraft:water",
         "minecraft:snow",
         "#minecraft:flowers",

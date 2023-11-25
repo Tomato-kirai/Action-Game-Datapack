@@ -1,0 +1,3 @@
+#> main:world/spawn_area/spawn/level_6/infected_villager
+
+summon zombie_villager ~ ~ ~ {Tags:["Monster","InfectedVillager","Level6"],Health:100f,Attributes:[{Name:"generic.max_health",Base:100}],DeathLootTable:"main:monster/level_6/generic",CustomName:'{"text": "感染村人","italic": false,"color": "white"}',CustomNameVisible:1b,ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{trash:1b}}]}
