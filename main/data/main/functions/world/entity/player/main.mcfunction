@@ -54,10 +54,12 @@ execute if score @s player.mp matches 800..999 unless score @s game.remove_mp ma
 
 # mpの減算
 execute if score @s game.remove_mp matches 1.. run function main:world/entity/player/remove_mp/remove
+#scoreboard players set @s player.mp 1000
 
-# 腹減りゲージ調整
-execute if score @s player.food matches ..7 run effect give @s saturation 1 0 true
-execute if score @s player.food matches 20.. run effect give @s hunger 1 100 true
+# エネルギー
+execute if entity @s[gamemode=adventure] run function main:world/entity/player/energy/main
+function main:world/entity/player/food/main
+#effect give @s saturation 1 255 true
 
 # 死んだ処理
 execute if score @s player.death matches 1.. run function main:world/entity/player/death/main
@@ -92,5 +94,8 @@ execute if score @s item.portal.energy matches 1.. unless predicate main:item/ut
 
 # パソコン買い物
 execute if score @s player.trigger.arrows_computer_shop matches 1.. run function main:world/entity/player/talked_to_villager/villager/arrows_computer/buy_item/buy_item
+
+# デバッグモード
+execute if entity @s[tag=Debug] run function main:world/entity/player/debug/main
 
 #execute if entity @s[tag=RevokeRootAdvancements] run advancement revoke @s through main:advancements/root

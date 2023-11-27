@@ -12,7 +12,9 @@ scoreboard objectives add game.summoned_boss dummy
 scoreboard objectives add game.const dummy
 scoreboard players set $100 game.const 100
 scoreboard players set $25 game.const 25
+scoreboard players set $10 game.const 10
 scoreboard players set $2 game.const 2
+scoreboard players set $-1 game.const -1
 
 scoreboard objectives add game.spawn_timer dummy
 
@@ -43,6 +45,8 @@ scoreboard objectives add player.vector.d_pos_z dummy
 scoreboard objectives add player.vector.v_x dummy
 scoreboard objectives add player.vector.v_y dummy
 scoreboard objectives add player.vector.v_z dummy
+scoreboard objectives add player.vector.v3 dummy
+scoreboard objectives add player.vector.v3_temp dummy
 scoreboard objectives add player.vector.v_temp dummy
 scoreboard players set $10000 player.vector.v_temp 10000
 scoreboard players set $1000 player.vector.v_temp 1000
@@ -62,7 +66,9 @@ scoreboard players set $const player.status.xp_required 32
 scoreboard objectives add player.respawn_timer dummy
 scoreboard objectives add player.g_health health
 scoreboard objectives add player.mp dummy
-scoreboard objectives add player.food food
+scoreboard objectives add player.g_food food
+scoreboard objectives add player.food dummy
+scoreboard objectives add player.food_hide dummy
 scoreboard objectives add player.death deathCount
 scoreboard objectives add player.entered_level dummy
 scoreboard objectives add player.gold dummy
@@ -77,6 +83,16 @@ scoreboard objectives add player.max_entered_level dummy
 scoreboard objectives add player.pos_y dummy
 scoreboard objectives add player.jump custom:jump
 scoreboard objectives add player.landing_timer dummy
+scoreboard objectives add player.energy dummy
+scoreboard objectives add player.energy_food dummy
+scoreboard objectives add player.energy_ratio dummy
+scoreboard players set $const player.energy_ratio 1000000
+scoreboard objectives add player.debug dummy
+
+scoreboard objectives add player.energy_charge_timer dummy
+scoreboard objectives add player.moving_distance dummy
+scoreboard objectives add player.d_moving_distance dummy
+scoreboard objectives add player.t_moving_distance dummy
 
 scoreboard objectives add player.magic_book.fire.shift_cooldown dummy
 scoreboard objectives add player.magic_book.wind.shift_cooldown dummy
@@ -117,6 +133,10 @@ scoreboard objectives add setting.send_damaged_log dummy
 scoreboard objectives add setting.send_damage_hit_log dummy
 scoreboard objectives add setting.play_monster_spawn_sound dummy
 #scoreboard objectives add setting.show_change_log dummy
+
+
+scoreboard objectives add loot_marker.timer dummy
+scoreboard objectives add loot_marker.random dummy
 
 
 scoreboard objectives add quest.combat.poison_slime_kill_count dummy
