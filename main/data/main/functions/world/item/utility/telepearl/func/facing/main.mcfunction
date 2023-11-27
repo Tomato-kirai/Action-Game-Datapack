@@ -11,3 +11,5 @@ execute if score @s item.telepearl.location matches 3 run function main:world/it
 execute if score @s item.telepearl.location matches 4 run function main:world/item/utility/telepearl/func/facing/level_4
 
 execute if score @s item.telepearl.location matches 5 run function main:world/item/utility/telepearl/func/facing/level_5
+
+execute if score @s item.telepearl.location matches 6 run function main:world/item/utility/telepearl/func/facing/level_6
