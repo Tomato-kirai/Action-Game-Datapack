@@ -10,9 +10,15 @@ scoreboard objectives add game.spawn_random dummy
 scoreboard objectives add game.summoned_boss dummy
 
 scoreboard objectives add game.const dummy
+scoreboard players set $1000 game.const 1000
+scoreboard players set $158 game.const 158
 scoreboard players set $100 game.const 100
+scoreboard players set $38 game.const 38
 scoreboard players set $25 game.const 25
 scoreboard players set $10 game.const 10
+scoreboard players set $9 game.const 9
+scoreboard players set $7 game.const 7
+scoreboard players set $5 game.const 5
 scoreboard players set $2 game.const 2
 scoreboard players set $-1 game.const -1
 
@@ -84,6 +90,7 @@ scoreboard objectives add player.pos_y dummy
 scoreboard objectives add player.jump custom:jump
 scoreboard objectives add player.landing_timer dummy
 scoreboard objectives add player.energy dummy
+scoreboard objectives add player.energy_remove dummy
 scoreboard objectives add player.energy_food dummy
 scoreboard objectives add player.energy_ratio dummy
 scoreboard players set $const player.energy_ratio 1000000
@@ -148,6 +155,13 @@ scoreboard objectives add item.telepearl.exit_location dummy
 scoreboard objectives add item.portal.energy dummy
 scoreboard objectives add item.revolver.cooldown dummy
 scoreboard objectives add item.revolver.ammo dummy
+scoreboard objectives add item.food.eat_cooldown dummy
+scoreboard objectives add item.food.energy_value dummy
+
+scoreboard objectives add gold_converter.gold dummy
+scoreboard objectives add gold_converter.gold_temp dummy
+scoreboard objectives add gold_converter.count dummy
+scoreboard objectives add gold_converter.slot dummy
 
 
 bossbar add boss:stray {"text": "Stray"}

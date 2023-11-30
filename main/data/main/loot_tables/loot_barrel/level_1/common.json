@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       "entries": [
         {
@@ -15,8 +15,8 @@
     },
     {
       "rolls": {
-        "min": 5,
-        "max": 10
+        "min": 6,
+        "max": 11
       },
       "entries": [
         {
@@ -33,18 +33,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom",
+          "name": "minecraft:potato",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{food:1b,energy_value:50000}"
+              "tag": "{food:1b,energy_value:80000}"
             },
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "ケーブマッシュルーム",
-                "color": "white",
+                "text": "セツゲンイモ",
                 "bold": false,
                 "italic": false
               }
@@ -60,13 +59,13 @@
                   "italic": false
                 },
                 {
-                  "text": "洞窟内に生えているキノコ",
+                  "text": "雪原で育つじゃがいも",
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text": "エネルギーを5%回復",
+                  "text": "エネルギーを8%回復",
                   "color": "green",
                   "bold": false,
                   "italic": false

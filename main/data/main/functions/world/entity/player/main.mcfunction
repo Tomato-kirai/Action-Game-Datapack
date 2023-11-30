@@ -98,4 +98,7 @@ execute if score @s player.trigger.arrows_computer_shop matches 1.. run function
 # デバッグモード
 execute if entity @s[tag=Debug] run function main:world/entity/player/debug/main
 
+# 換金
+function main:world/gold_converter/main
+
 #execute if entity @s[tag=RevokeRootAdvancements] run advancement revoke @s through main:advancements/root

@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 4
       },
       "entries": [
         {
@@ -15,8 +15,8 @@
     },
     {
       "rolls": {
-        "min": 5,
-        "max": 10
+        "min": 20,
+        "max": 30
       },
       "entries": [
         {
@@ -26,10 +26,7 @@
       ]
     },
     {
-      "rolls": {
-        "min": 0,
-        "max": 2
-      },
+      "rolls": 4,
       "entries": [
         {
           "type": "minecraft:item",
@@ -67,6 +64,58 @@
                 },
                 {
                   "text": "エネルギーを5%回復",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{food:1b,energy_value:150000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "ドウクツノミ",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "食料アイテム",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "名前に「ミ」とあるが実は根菜",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "エネルギーを15%回復",
                   "color": "green",
                   "bold": false,
                   "italic": false
