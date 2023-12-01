@@ -7,6 +7,7 @@ execute store result score @s loot_marker.random run random value 0..100
 
 
 execute if entity @s[tag=Level0] run function main:world/loot_marker/gen/level_0/main
+execute if entity @s[tag=Level1] run function main:world/loot_marker/gen/level_1/main
 
 
 tag @s add Set
