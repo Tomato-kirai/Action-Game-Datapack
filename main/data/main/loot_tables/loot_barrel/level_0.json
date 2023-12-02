@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "main:enchanted_cookie"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 30
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "main:gold"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "main:loot_barrel/item/cave_mushroom",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "main:loot_barrel/item/cave_nuts",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -143,7 +143,7 @@ scoreboard objectives add setting.play_monster_spawn_sound dummy
 
 
 scoreboard objectives add loot_marker.timer dummy
-scoreboard objectives add loot_marker.random dummy
+#scoreboard objectives add loot_marker.random dummy
 
 
 scoreboard objectives add quest.combat.poison_slime_kill_count dummy

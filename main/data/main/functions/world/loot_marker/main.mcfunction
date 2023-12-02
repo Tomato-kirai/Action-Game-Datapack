@@ -1,6 +1,6 @@
 #> main:world/loot_marker/main
 
-execute if score @s loot_marker.timer matches 1200.. unless block ~ ~ ~ barrel align xyz positioned ~0.5 ~0.5 ~0.5 run function main:world/loot_marker/gen/check_level
+execute if score @s loot_marker.timer matches 1200.. unless block ~ ~ ~ barrel align xyz positioned ~0.5 ~0.5 ~0.5 run function main:world/loot_marker/gen/gen
 
 
 scoreboard players add @s loot_marker.timer 1

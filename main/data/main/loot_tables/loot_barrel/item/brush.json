@@ -1,49 +1,22 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "min": 2,
-        "max": 3
-      },
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "main:enchanted_cookie"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 6,
-        "max": 11
-      },
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "main:gold"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 2
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potato",
+          "name": "minecraft:brush",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{food:1b,energy_value:80000}"
+              "tag": "{gold_value:300}"
             },
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "セツゲンイモ",
+                "text": "発掘用ブラシ",
+                "color": "white",
                 "bold": false,
                 "italic": false
               }
@@ -53,19 +26,19 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "食料アイテム",
+                  "text": "希少アイテム",
                   "color": "yellow",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text": "雪原で育つじゃがいも",
+                  "text": "考古学者の忘れ物だろう",
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text": "エネルギーを8%回復",
+                  "text": "価値: 300G",
                   "color": "green",
                   "bold": false,
                   "italic": false

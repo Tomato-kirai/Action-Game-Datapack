@@ -1,50 +1,21 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "main:enchanted_cookie"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 5,
-        "max": 10
-      },
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "main:gold"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 2
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom",
+          "name": "minecraft:cooked_salmon",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{food:1b,energy_value:50000}"
+              "tag": "{food:1b,energy_value:180000}"
             },
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "ケーブマッシュルーム",
-                "color": "white",
+                "text": "鮭の姿焼き",
                 "bold": false,
                 "italic": false
               }
@@ -60,13 +31,13 @@
                   "italic": false
                 },
                 {
-                  "text": "洞窟内に生えているキノコ",
+                  "text": "誰かが釣って焼いたものだろう",
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text": "エネルギーを5%回復",
+                  "text": "エネルギー: +18%",
                   "color": "green",
                   "bold": false,
                   "italic": false
