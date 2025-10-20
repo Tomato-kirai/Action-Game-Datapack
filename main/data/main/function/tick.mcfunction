@@ -35,4 +35,5 @@ execute as @e[tag=MagicHit] run tag @s remove MagicHit
 
 execute as @e[tag=this] run tag @s remove this
 
-title @a actionbar "Ticked"
+
+#title @a actionbar "Ticked"
