@@ -34,3 +34,5 @@ execute as @e[type=marker] at @s run function main:world/entity/marker/main
 execute as @e[tag=MagicHit] run tag @s remove MagicHit
 
 execute as @e[tag=this] run tag @s remove this
+
+title @a actionbar "Ticked"

@@ -173,3 +173,6 @@ bossbar add boss:purple_block {"text": "Purple Block Core"}
 
 forceload add -1 -1 1 1
 forceload add 2000 -10 2000 90
+
+
+title @a actionbar "Reloaded"
