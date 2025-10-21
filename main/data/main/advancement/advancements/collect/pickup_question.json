@@ -20,7 +20,7 @@
     "xp": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "ids": [
+        "items": [
           {
             "predicates": {
               "minecraft:custom_data": "{question:1b}"
