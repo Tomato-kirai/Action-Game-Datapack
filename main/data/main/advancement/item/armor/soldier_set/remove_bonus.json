@@ -22,7 +22,9 @@
                   "predicate": {
                     "equipment": {
                       "head": {
-                        "nbt": "{soldier_set:1b}"
+                        "predicates": {
+                          "minecraft:custom_data": "{soldier_set:1b}"
+                        }
                       }
                     }
                   }
@@ -33,7 +35,9 @@
                   "predicate": {
                     "equipment": {
                       "chest": {
-                        "nbt": "{soldier_set:1b}"
+                        "predicates": {
+                          "minecraft:custom_data": "{soldier_set:1b}"
+                        }
                       }
                     }
                   }
@@ -44,7 +48,9 @@
                   "predicate": {
                     "equipment": {
                       "legs": {
-                        "nbt": "{soldier_set:1b}"
+                        "predicates": {
+                          "minecraft:custom_data": "{soldier_set:1b}"
+                        }
                       }
                     }
                   }
@@ -55,7 +61,9 @@
                   "predicate": {
                     "equipment": {
                       "feet": {
-                        "nbt": "{soldier_set:1b}"
+                        "predicates": {
+                          "minecraft:custom_data": "{soldier_set:1b}"
+                        }
                       }
                     }
                   }

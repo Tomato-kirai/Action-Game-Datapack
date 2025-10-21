@@ -22,7 +22,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "nbt": "{revolver:1b}"
+                  "predicates":{"custom_data": "{revolver:1b}"}
                 }
               }
             }

@@ -6,7 +6,7 @@
         "player": [
         ],
         "item": {
-          "nbt": "{boost_potion:1b}"
+          "predicates":{"custom_data": "{boost_potion:1b}"}
         }
       }
     }

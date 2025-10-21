@@ -1,8 +1,8 @@
 {
         "display": {
           "icon": {
-            "item": "minecraft:leather_boots",
-            "nbt": "{display:{color:16648767}}"
+            "id": "minecraft:leather_boots",
+            "components": {"dyed_color":16648767}
           },
           "title": "第一歩  ",
           "description": [

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:nether_star"
+      "id": "minecraft:nether_star"
     },
     "title": "ﾋｬｸﾚﾍﾞ",
     "description": "100経験値レベルに到達する",

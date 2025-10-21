@@ -1,7 +1,7 @@
 {
         "display": {
           "icon": {
-            "item": "minecraft:diamond_helmet"
+            "id": "minecraft:diamond_helmet"
           },
           "title": "王冠?",
           "description": "銀世界の王の証を拾う",
@@ -15,9 +15,9 @@
           "xp": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-              "items": [
+              "ids": [
                 {
-                  "nbt": "{stray_crown:1b}"
+                  "predicates":{"minecraft:custom_data": "{stray_crown:1b}"}
                 }
               ]
             }

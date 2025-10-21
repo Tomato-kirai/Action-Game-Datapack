@@ -10,7 +10,7 @@
           }
         ],
         "item": {
-          "nbt": "{heal_potion:1b}"
+          "predicates":{"custom_data": "{heal_potion:1b}"}
         }
       }
     }

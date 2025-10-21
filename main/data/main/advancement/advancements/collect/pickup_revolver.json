@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_hoe"
+      "id": "minecraft:iron_hoe"
     },
     "title": "これ使っていいの?",
     "description": "リボルバーを入手する",
@@ -15,9 +15,9 @@
     "xp": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
+        "ids": [
           {
-            "nbt": "{revolver:1b}"
+            "predicates":{"minecraft:custom_data": "{revolver:1b}"}
           }
         ]
       }

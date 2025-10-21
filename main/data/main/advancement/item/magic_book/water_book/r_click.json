@@ -15,7 +15,9 @@
           }
         ],
         "item": {
-          "nbt": "{magic_book:{magic:\"water\"}}"
+          "predicates": {
+            "minecraft:custom_data": "{magic_book:{magic:\"water\"}}"
+          }
         },
         "entity": {
           "nbt": "{Tags:[\"MagicBookInteraction\"]}"

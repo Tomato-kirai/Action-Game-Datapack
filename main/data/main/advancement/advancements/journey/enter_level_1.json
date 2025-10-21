@@ -1,7 +1,7 @@
 {
         "display": {
           "icon": {
-            "item": "minecraft:snowball"
+            "id": "minecraft:snowball"
           },
           "title": "ここは寒そうだね",
           "description": [

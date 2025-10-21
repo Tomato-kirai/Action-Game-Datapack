@@ -26,7 +26,7 @@
                   },
                   "equipment": {
                     "mainhand": {
-                      "nbt": "{portal:1b}"
+                      "predicates":{"custom_data": "{portal:1b}"}
                     }
                   }
                 }

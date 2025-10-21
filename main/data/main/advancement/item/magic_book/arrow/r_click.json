@@ -15,8 +15,10 @@
                 }
               ],
               "item": {
-                "nbt": "{magic_book:{magic:\"arrow\"}}"
-              },
+                  "predicates": {
+                    "minecraft:custom_data": "{magic_book:{magic:\"arrow\"}}"
+                  }
+                },
               "entity": {
                 "nbt": "{Tags:[\"MagicBookInteraction\"]}"
               }

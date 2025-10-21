@@ -1,7 +1,7 @@
 {
         "display": {
           "icon": {
-            "item": "minecraft:experience_bottle"
+            "id": "minecraft:experience_bottle"
           },
           "title": "やっと... 50...",
           "description": "50経験値レベルに到達する",

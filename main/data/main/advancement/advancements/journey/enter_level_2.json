@@ -1,7 +1,7 @@
 {
         "display": {
           "icon": {
-            "item": "minecraft:gravel"
+            "id": "minecraft:gravel"
           },
           "title": "川の音",
           "description": [

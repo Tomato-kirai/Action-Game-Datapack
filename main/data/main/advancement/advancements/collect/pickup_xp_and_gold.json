@@ -1,7 +1,7 @@
 {
         "display": {
           "icon": {
-            "item": "minecraft:gold_nugget"
+            "id": "minecraft:gold_nugget"
           },
           "title": "ﾁｬﾘﾝ!    ",
           "description": "エンチャントされたクッキーとゴールドを拾い、音を楽しむ",
@@ -17,7 +17,7 @@
             "conditions": {
               "items": [
                 {
-                  "nbt": "{enchanted_cookie:1b}"
+                  "predicates":{"custom_data": "{enchanted_cookie:1b}"}
                 }
               ]
             }
@@ -27,7 +27,7 @@
             "conditions": {
               "items": [
                 {
-                  "nbt": "{gold:1b}"
+                  "predicates":{"custom_data": "{gold:1b}"}
                 }
               ]
             }

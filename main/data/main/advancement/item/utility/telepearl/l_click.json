@@ -23,7 +23,7 @@
                       "predicate": {
                         "equipment": {
                           "mainhand": {
-                            "nbt": "{telepearl:1b}"
+                            "predicates":{"custom_data": "{telepearl:1b}"}
                           }
                         }
                       }

@@ -1,8 +1,8 @@
 {
         "display": {
           "icon": {
-            "item": "minecraft:book",
-            "nbt": "{Enchantments:[{}]}"
+            "id": "minecraft:book",
+            "components":{"enchantment_glint_override": true}
           },
           "title": "Wizard's Books",
           "description": "ウィザード・ブックス",

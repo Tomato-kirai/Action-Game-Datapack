@@ -13,7 +13,7 @@
               },
               "equipment": {
                 "mainhand": {
-                  "nbt": "{magic_book:{magic:\"wind\"}}"
+                  "predicates":{"custom_data":"{magic_book:{magic:\"wind\"}}"}
                 }
               }
             }

@@ -4,7 +4,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{speed_potion:1b}"
+          "predicates":{"custom_data": "{speed_potion:1b}"}
         }
       }
     }

@@ -1,8 +1,8 @@
 {
         "display": {
           "icon": {
-            "item": "minecraft:cookie",
-            "nbt": "{Enchantments:[{}]}"
+            "id": "minecraft:cookie",
+            "components":{"enchantment_glint_override": true}
           },
           "title": "まだ10レベか...",
           "description": "10経験値レベルに到達する",

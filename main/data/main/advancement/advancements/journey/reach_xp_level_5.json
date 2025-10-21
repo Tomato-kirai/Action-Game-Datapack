@@ -1,7 +1,7 @@
 {
         "display": {
           "icon": {
-            "item": "minecraft:cookie"
+            "id": "minecraft:cookie"
           },
           "title": "慣れてきた",
           "description": "5経験値レベルに到達する",

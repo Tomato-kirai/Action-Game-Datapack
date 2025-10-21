@@ -31,7 +31,7 @@
               ],
               "items": [
                 {
-                  "nbt": "{stray_crown:1b}"
+                  "predicates":{"custom_data": "{stray_crown:1b}"}
                 }
               ]
             }

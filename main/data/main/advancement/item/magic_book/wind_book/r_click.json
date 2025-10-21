@@ -15,7 +15,9 @@
           }
         ],
         "item": {
-          "nbt": "{magic_book:{magic:\"wind\"}}"
+          "predicates":{
+            "custom_data": "{magic_book:{magic:\"wind\"}}"
+          }
         },
         "entity": {
           "nbt": "{Tags:[\"MagicBookInteraction\"]}"

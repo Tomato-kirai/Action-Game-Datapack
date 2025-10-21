@@ -13,7 +13,9 @@
           }
         ],
         "item": {
-          "nbt": "{food:1b}"
+          "predicates": {
+            "minecraft:custom_data": "{food:1b}"
+          }
         },
         "entity": {
           "nbt": "{Tags:[\"FoodInteraction\"]}"

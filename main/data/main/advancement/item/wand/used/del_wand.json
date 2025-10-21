@@ -15,7 +15,7 @@
             }
           ],
           "item": {
-            "nbt": "{wand:{id:\"del_wand\"}}"
+            "predicates":{"custom_data": "{wand:{id:\"del_wand\"}}"}
           },
           "entity": {
             "nbt": "{Tags:[\"WandInteraction\"]}"

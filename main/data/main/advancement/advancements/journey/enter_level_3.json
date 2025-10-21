@@ -1,7 +1,7 @@
 {
         "display": {
           "icon": {
-            "item": "minecraft:dark_oak_door"
+            "id": "minecraft:dark_oak_door"
           },
           "title": "豪華な屋敷",
           "description": [
