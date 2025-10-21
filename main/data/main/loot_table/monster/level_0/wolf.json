@@ -5,7 +5,7 @@
             "entries": [
               {
                 "type": "minecraft:loot_table",
-                "name": "main:enchanted_cookie"
+                "value": "main:enchanted_cookie"
               }
             ]
           }
