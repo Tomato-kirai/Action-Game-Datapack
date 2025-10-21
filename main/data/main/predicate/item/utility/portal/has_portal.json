@@ -4,7 +4,9 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "nbt": "{portal:1b}"
+        "predicates": {
+          "minecraft:custom_data": "{portal:1b}"
+        }
       }
     }
   }
