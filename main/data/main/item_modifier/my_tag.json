@@ -1,5 +1,6 @@
 [
   {
+    "mode": "replace_all",
     "function": "minecraft:set_lore",
     "entity": "this",
     "lore": [
@@ -196,7 +197,6 @@
           "obfuscated": false
         }
       ]
-    ],
-    "replace": true
+    ]
   }
 ]
