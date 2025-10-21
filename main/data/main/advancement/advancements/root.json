@@ -6,7 +6,7 @@
           },
           "title": "Wizard's Books",
           "description": "ウィザード・ブックス",
-          "background": "minecraft:textures/block/purple_wool.png",
+          "background": "minecraft:gui/advancements/backgrounds/adventure",
           "frame": "task",
           "show_toast": true,
           "announce_to_chat": true,
