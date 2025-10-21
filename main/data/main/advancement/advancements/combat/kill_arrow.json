@@ -31,7 +31,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
               "entity": {
-                "predicates":{"minecraft:custom_data": "{Tags:[\"Monster\",\"Boss\",\"Arrow\",\"Level3\"]}"}
+                "nbt": "{Tags:[\"Monster\",\"Boss\",\"Arrow\",\"Level3\"]}"
               }
             }
           }
