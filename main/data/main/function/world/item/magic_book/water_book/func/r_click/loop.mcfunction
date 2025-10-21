@@ -2,6 +2,6 @@
 
 execute positioned ~-0.05 ~-0.05 ~-0.05 as @e[dx=0,type=!player,type=!interaction,tag=!this,tag=!MagicHit,nbt=!{Invulnerable:1b},limit=1] positioned ~-0.9 ~-0.9 ~-0.9 if entity @s[dx=0] run function main:world/item/magic_book/water_book/func/r_click/damage
 
-particle dust 0 0.518 1 1 ~ ~ ~ 0.0 0.0 0.0 0 1 normal @a
+particle dust{color:[0.0,0.518,1.0],scale:1} ~ ~ ~ 0.0 0.0 0.0 0 1 normal
 
 execute positioned ^ ^ ^0.1 if entity @s[distance=..90] if block ^ ^ ^0.4 #main:no_collision unless entity @e[tag=MagicHit,type=!player,type=!interaction,dx=0] positioned ~-0.9 ~-0.9 ~-0.9 unless entity @e[tag=MagicHit,type=!player,type=!interaction,dx=0] positioned ~0.9 ~0.9 ~0.9 run function main:world/item/magic_book/water_book/func/r_click/loop

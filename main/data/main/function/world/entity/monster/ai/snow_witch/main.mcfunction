@@ -5,7 +5,7 @@ execute if predicate main:is_fight_on_with_player if entity @s[nbt={PortalCooldo
 
 execute positioned ~ ~1 ~ run particle snowflake ^ ^ ^-0.35 0.1 0.5 0.1 0.0 5 normal @a
 
-execute positioned ~ ~1 ~ run kill @e[type=potion,distance=..1,sort=nearest,limit=1]
+execute positioned ~ ~1 ~ run kill @e[type=splash_potion,distance=..1,sort=nearest,limit=1]
 item replace entity @s weapon.mainhand with air
 
-particle dust 0.435 0 1 1 ~ ~1 ~ 0.5 0.5 0.5 1 1 normal @a
+particle dust{color:[0.435,0.0,1.0],scale:1} ~ ~1 ~ 0.5 0.5 0.5 1 1 normal

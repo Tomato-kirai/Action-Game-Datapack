@@ -2,7 +2,7 @@
 
 playsound entity.spider.ambient hostile @a ~ ~ ~ 1 0
 
-particle block redstone_block ~ ~0.1 ~ 0.1 0.1 0.1 0 10 normal @a
+particle block{block_state:{Name:redstone_block}} ~ ~0.1 ~ 0.1 0.1 0.1 0 10 normal
 
 tp @s ~ ~ ~ facing entity @p feet
 

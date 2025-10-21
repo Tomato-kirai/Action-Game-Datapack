@@ -1,6 +1,6 @@
 #> main:game/buy_item/armor/winter_boots
 
-give @p leather_boots{display:{Name:'{"text":"冬の靴","color":"white","bold":false,"italic":false}',Lore:['{"text":"厚い革靴","color":"gray","bold":false,"italic":false}','{"text":"冬服セットの一部","color":"gray","bold":false,"italic":false}','{"text":"防護 +2","color":"green","bold":true,"italic":false}'],color:5446144},HideFlags:70,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;-44640674,311578244,-1277186494,1080648978],Slot:"feet"}]} 1
+give @p minecraft:leather_boots[minecraft:lore=['{"text":"厚い革靴","color":"gray","bold":false,"italic":false}','{"text":"冬服セットの一部","color":"gray","bold":false,"italic":false}','{"text":"防護 +2","color":"green","bold":true,"italic":false}'],minecraft:attribute_modifiers=[{amount:2,id:"generic.armor",operation:"add_value",slot:"feet",type:"armor",}],minecraft:unbreakable={},minecraft:custom_name='{"text":"冬の靴","color":"white","bold":false,"italic":false}',minecraft:dyed_color=5446144] 1
 
 scoreboard players remove @s player.gold 900
 

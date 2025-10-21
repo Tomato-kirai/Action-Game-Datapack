@@ -9,7 +9,7 @@ function main:world/entity/player/status/resistance/init
 function main:world/entity/player/status/speed/init
 scoreboard players operation @s player.gold /= $2 game.const
 
-clear @s #main:food{food:1b}
+clear @s *[custom_data~{food:1b}]
 scoreboard players set @s player.energy 500000
 
 function main:world/level/init/all_level

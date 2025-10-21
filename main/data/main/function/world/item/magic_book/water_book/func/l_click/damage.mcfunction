@@ -9,4 +9,4 @@ function main:world/item/magic_book/water_book/func/l_click/damage_macro with st
 
 playsound block.glass.break player @a ~ ~ ~ 1 0
 
-particle block blue_ice ~ ~ ~ 0 0 0 1 1 force @a
+particle block{block_state:{Name:blue_ice}} ~ ~ ~ 0 0 0 1 1 force

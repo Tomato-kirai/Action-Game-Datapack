@@ -1,3 +1,3 @@
 #> main:world/item/wand/basic_wand/give/give
 
-give @p wooden_hoe{display:{Name:'{"text":"キホンの杖","color":"white","bold":false,"italic":false}',Lore:['{"text":"ダメージ: 5","color":"red","bold":false,"italic":false}','{"text":"消費マナ: 20","color":"green","bold":false,"italic":false}','{"text":"基本的な魔法を撃つ杖","color":"gray","bold":false,"italic":false}']},HideFlags:38,Unbreakable:1b,wand:{id:"basic_wand"}} 1
+give @p wooden_hoe[custom_name=[{"text":"キホンの杖","italic":false,"color":"white"}],lore=[[{"text":"ダメージ: 5","italic":false,"color":"red"}],[{"text":"消費マナ: 20","italic":false,"color":"green"}],[{"text":"基本的な魔法を撃つ杖","italic":false,"color":"gray"}]],unbreakable={},tooltip_display={hidden_components:[attribute_modifiers,unbreakable]}] 1

@@ -1,9 +1,9 @@
 #> main:world/entity/monster/init/level/lvl_5
 
-attribute @s generic.max_health modifier add b4d7f578-b14e-47ef-87ec-8c60e1d65144 "ModHealth" 58 add
+attribute @s max_health modifier add b4d7f578-b14e-47ef-87ec-8c60e1d65144 58 add_value
 data merge entity @s {Health:2097152}
 
-attribute @s generic.armor modifier add 768b749e-0bb4-4bbd-b28a-11d84d336be6 "ModArmor" 34 add
+attribute @s armor modifier add 768b749e-0bb4-4bbd-b28a-11d84d336be6 34 add_value
 
 tag @s add this
 

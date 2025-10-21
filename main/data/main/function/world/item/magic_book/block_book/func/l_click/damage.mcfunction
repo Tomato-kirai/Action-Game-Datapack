@@ -9,4 +9,4 @@ function main:world/item/magic_book/block_book/func/l_click/damage_macro with st
 
 playsound entity.player.attack.crit player @a ~ ~ ~ 1 0
 
-particle block redstone_block ~ ~ ~ 0 0 0 1 20 force @a
+particle block{block_state:{Name:redstone_block}} ~ ~ ~ 0 0 0 1 20 force

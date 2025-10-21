@@ -1,3 +1,3 @@
 #> main:world/item/food/apple/give/give
 
-give @p apple{display:{Name:'{"text":"林檎","color":"white","bold":false,"italic":false}',Lore:['{"text":"食料アイテム","color":"gray","bold":false,"italic":false}']},food:1b,energy_value:50000} 1
+give @p apple[custom_name=[{"text":"林檎","italic":false,"color":"white"}],lore=[[{"text":"食料アイテム","italic":false,"color":"gray"}]]] 1

@@ -4,4 +4,4 @@ execute if predicate main:is_fight_on_with_player if entity @s[nbt={PortalCooldo
 
 effect give @a[distance=..4] poison 1 2 true
 
-particle dust 0.435 0 1 1 ~ ~1 ~ 1 1 1 1 1 normal @a
+particle dust{color:[0.435,0.0,1.0],scale:1} ~ ~1 ~ 1 1 1 1 1 normal

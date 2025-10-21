@@ -10,4 +10,4 @@ execute if predicate main:is_fight_on_with_player if entity @s[nbt={PortalCooldo
 
 effect give @s speed 1 3 true
 
-particle dust 0.435 0 1 1 ~ ~1 ~ 0.5 0.5 0.5 1 1 normal @a
+particle dust{color:[0.435,0.0,1.0],scale:1} ~ ~1 ~ 0.5 0.5 0.5 1 1 normal

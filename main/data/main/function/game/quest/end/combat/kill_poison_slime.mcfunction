@@ -1,7 +1,7 @@
 #> main:game/quest/end/combat/kill_poison_slime
 
-give @s cookie{enchanted_cookie:1b,Enchantments:[{}],display:{Name:'{"text": "エンチャントされたクッキー","bold": false,"italic": false}'}} 18
-give @s gold_nugget{gold:1b,display:{Name:'{"text": "ゴールド","bold": false,"italic": false}'}} 40
+give @s minecraft:cookie[minecraft:custom_name='{"text": "エンチャントされたクッキー","bold": false,"italic": false}',minecraft:custom_data={enchanted_cookie:1b}] 18
+give @s minecraft:gold_nugget[minecraft:custom_name='{"text": "ゴールド","bold": false,"italic": false}',minecraft:custom_data={gold:1b}] 40
 
 scoreboard players reset @s player.quest_progress
 scoreboard players reset @s quest.combat.poison_slime_kill_count

@@ -4,7 +4,7 @@ advancement revoke @s only main:item/utility/telepearl/has_pearl
 
 execute unless entity @s[tag=HasTelepearl] run function main:world/item/utility/telepearl/func/init
 
-particle dust 0.282 0.106 0.514 1 ~ ~1 ~ 0.5 1 0.5 1 100 normal @a
+particle dust{color:[0.282,0.106,0.514],scale:1} ~ ~1 ~ 0.5 1 0.5 1 100 normal
 
 execute positioned ~ ~-0.5 ~ anchored eyes positioned ^ ^ ^ run summon interaction ~ ~ ~ {Tags:["TelepearlInteraction","Interaction"]}
 

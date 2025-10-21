@@ -1,3 +1,3 @@
 #> main:world/item/wand/explosive_wand/give/give
 
-give @p wooden_hoe{display:{Name:'{"text":"爆発の杖","color":"white","bold":false,"italic":false}',Lore:['{"text":"ダメージ: 爆破","color":"red","bold":false,"italic":false}','{"text":"消費マナ: 100","color":"green","bold":false,"italic":false}','{"text":"爆発する魔法の杖","color":"gray","bold":false,"italic":false}']},HideFlags:38,Unbreakable:1b,wand:{id:"explosive_wand"}} 1
+give @p wooden_hoe[custom_name=[{"text":"爆発の杖","italic":false,"color":"white"}],lore=[[{"text":"ダメージ: 爆破","italic":false,"color":"red"}],[{"text":"消費マナ: 100","italic":false,"color":"green"}],[{"text":"爆発する魔法の杖","italic":false,"color":"gray"}]],unbreakable={},tooltip_display={hidden_components:[attribute_modifiers,unbreakable]}] 1

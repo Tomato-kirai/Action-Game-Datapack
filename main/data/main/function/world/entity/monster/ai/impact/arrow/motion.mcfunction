@@ -1,7 +1,7 @@
 #> main:world/entity/monster/ai/impact/arrow/motion
 
 playsound block.note_block.pling hostile @a ~ ~ ~ 1 2
-particle dust 1 0 0 1 ~ ~ ~ 0 0 0 1 1 normal @a
+particle dust{color:[1.0,0.0,0.0],scale:1} ~ ~ ~ 0 0 0 1 1 normal
 
 tag @s add ImpactArrowAddMotion
 
