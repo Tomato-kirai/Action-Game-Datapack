@@ -102,3 +102,6 @@ execute if entity @s[tag=Debug] run function main:world/entity/player/debug/main
 function main:world/gold_converter/main
 
 #execute if entity @s[tag=RevokeRootAdvancements] run advancement revoke @s through main:advancements/root
+
+
+effect give @s saturation infinite 200 true
