@@ -1,3 +1,9 @@
 #> main:world/spawn_area/spawn/level_2/zombie
 
-summon zombie ~ ~ ~ {Tags:["Monster","RiverZombie","Level2"],Health:50f,HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{trash:1b}},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1b,tag:{trash:1b}}],Attributes:[{Name:"generic.max_health",Base:50}],DeathLootTable:"main:monster/level_2/generic",CustomName:'{"text": "剣士ゾンビ","italic": false,"color": "white"}',CustomNameVisible:1b}
+summon zombie ~ ~ ~ {Tags:["Monster","RiverZombie","Level2","SetEquipment"],Health:50f,attributes:[{id:"max_health",base:50}],DeathLootTable:"main:monster/level_2/generic",CustomName:{"text": "剣士ゾンビ","italic": false,"color": "white"},CustomNameVisible:1b}
+
+item replace entity @n[distance=..0.01,tag=SetEquipment] weapon.mainhand with iron_sword[custom_data={trash:1b}]
+
+item replace entity @n[distance=..0.01,tag=SetEquipment] armor.head with iron_helmet[custom_data={trash:1b}]
+
+tag @n[distance=..0.01,tag=SetEquipment] remove SetEquipment
