@@ -4,7 +4,7 @@ execute store result bossbar boss:stray value run data get entity @s Health 1
 
 execute if entity @s[nbt={PortalCooldown:0}] run function main:world/entity/monster/ai/stray/return_home
 
-execute if entity @s[nbt={PortalCooldown:30}] run function main:world/entity/monster/ai/stray/summon_skeleton
+execute if entity @s[nbt={PortalCooldown:30}] run function main:world/entity/monster/ai/stray/spawn_skeleton
 
 execute if entity @s[nbt={PortalCooldown:50}] run function main:world/entity/monster/ai/stray/spreadplayer
 

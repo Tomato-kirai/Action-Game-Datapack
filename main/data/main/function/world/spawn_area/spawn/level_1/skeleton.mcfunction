@@ -1,3 +1,9 @@
 #> main:world/spawn_area/spawn/level_1/skeleton
 
-summon skeleton ~ ~ ~ {Health:30f,Tags:["Monster","Skeleton","Level1"],HandItems:[{id:"minecraft:stone_axe",Count:1b,tag:{trash:1b}},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1b,tag:{trash:1b}}],Attributes:[{Name:"generic.max_health",Base:30},{Name:"generic.movement_speed",Base:0.3}],DeathLootTable:"main:monster/level_1/generic",CustomName:'{"text": "フローズンスケルトン","italic": false,"color": "white"}',CustomNameVisible:1b}
+summon skeleton ~ ~ ~ {Health:30f,Tags:["Monster","Skeleton","Level1","SetEquipment"],attributes:[{id:"max_health",base:30},{id:"movement_speed",base:0.3}],DeathLootTable:"main:monster/level_1/generic",CustomName:{"text": "フローズンスケルトン","italic": false,"color": "white"},CustomNameVisible:1b}
+
+item replace entity @n[distance=..0.01,tag=SetEquipment] weapon.mainhand with stone_axe[custom_data={trash:1b}]
+
+item replace entity @n[distance=..0.01,tag=SetEquipment] armor.head with iron_helmet[custom_data={trash:1b}]
+
+tag @n[distance=..0.01,tag=SetEquipment] remove SetEquipment
