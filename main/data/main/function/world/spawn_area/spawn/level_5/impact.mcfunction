@@ -1,3 +1,17 @@
 #> main:world/spawn_area/spawn/level_5/impact
 
-summon skeleton ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"main:monster/level_5/generic",Health:80f,Tags:["Monster","Impact","Level5"],CustomName:'{"text":"インパクト","color":"white","italic":false}',HandItems:[{id:"minecraft:bow",Count:1b,tag:{trash:1b,Enchantments:[{id:"minecraft:punch",lvl:1s}]}},{}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16777215},trash:1b,Trim:{material:"minecraft:quartz",pattern:"minecraft:spire"}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:16777215},trash:1b,Trim:{material:"minecraft:quartz",pattern:"minecraft:spire"}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:16777215},trash:1b,Trim:{material:"minecraft:quartz",pattern:"minecraft:spire"}}},{id:"minecraft:leather_helmet",Count:1b,tag:{display:{color:16777215},trash:1b,Trim:{material:"minecraft:quartz",pattern:"minecraft:spire"}}}],Attributes:[{Name:generic.max_health,Base:80}]}
+summon skeleton ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"main:monster/level_5/generic",Health:80f,Tags:["Monster","Impact","Level5","SetEquipment"],CustomName:{"text":"インパクト","color":"white","italic":false},attributes:[{id:max_health,base:80}]}
+
+item replace entity @n[distance=..0.01,tag=SetEquipment] weapon.mainhand with bow[custom_data={trash:1b},enchantments={punch:1},enchantment_glint_override=false]
+
+
+item replace entity @n[distance=..0.01,tag=SetEquipment] armor.head with leather_helmet[custom_data={trash:1b},dyed_color=16777215,trim={material:"quartz",pattern:"spire"}]
+
+item replace entity @n[distance=..0.01,tag=SetEquipment] armor.chest with leather_chestplate[custom_data={trash:1b},dyed_color=16777215,trim={material:"quartz",pattern:"spire"}]
+
+item replace entity @n[distance=..0.01,tag=SetEquipment] armor.legs with leather_leggings[custom_data={trash:1b},dyed_color=16777215,trim={material:"quartz",pattern:"spire"}]
+
+item replace entity @n[distance=..0.01,tag=SetEquipment] armor.feet with leather_boots[custom_data={trash:1b},dyed_color=16777215,trim={material:"quartz",pattern:"spire"}]
+
+
+tag @n[distance=..0.01,tag=SetEquipment] remove SetEquipment
