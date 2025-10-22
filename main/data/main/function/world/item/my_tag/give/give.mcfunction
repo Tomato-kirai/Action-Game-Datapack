@@ -1,3 +1,3 @@
 #> main:world/item/my_tag/give/give
 
-give @p book[custom_name=[{"text":"魔法の本 | ","italic":false,"color":"white"},{"text":"💨","italic":false,"color":"gray"}],lore=[[{"text":"風の魔法の本","italic":false,"color":"gray"}]]] 1
+give @p tripwire_hook[custom_name=[{"text":"情報タグ","italic":false,"color":"gray"}],lore=[[{"text":"手に持ってプレイヤー情報を更新","italic":false,"color":"gray"}]],custom_data={my_tag:1b}] 1
