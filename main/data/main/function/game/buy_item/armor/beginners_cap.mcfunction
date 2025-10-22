@@ -1,6 +1,6 @@
 #> main:game/buy_item/armor/beginners_cap
 
-give @p minecraft:leather_helmet[minecraft:lore=['{"text":"初心者向け 特殊効果付きの帽子","color":"gray","bold":false,"italic":false}','{"text":"防護 +1","color":"green","bold":true,"italic":false}','{"text":"10秒ごとに2経験取得","color":"green","bold":true,"italic":false}'],minecraft:attribute_modifiers=[{amount:1,id:"generic.armor",operation:"add_value",slot:"head",type:"armor"}],minecraft:unbreakable={},minecraft:custom_name='{"text":"初心者の帽子","color":"white","bold":false,"italic":false}',minecraft:custom_data={beginners_cap:1b},minecraft:dyed_color=7142922] 1
+give @p minecraft:leather_helmet[minecraft:lore=[{"text":"初心者向け 特殊効果付きの帽子","color":"gray","bold":false,"italic":false},{"text":"防護 +1","color":"green","bold":true,"italic":false},{"text":"10秒ごとに2経験取得","color":"green","bold":true,"italic":false}],minecraft:attribute_modifiers=[{amount:1,id:"generic.armor",operation:"add_value",slot:"head",type:"armor"}],minecraft:unbreakable={},minecraft:custom_name={"text":"初心者の帽子","color":"white","bold":false,"italic":false},minecraft:custom_data={beginners_cap:1b},minecraft:dyed_color=7142922] 1
 
 scoreboard players remove @s player.gold 1000
 

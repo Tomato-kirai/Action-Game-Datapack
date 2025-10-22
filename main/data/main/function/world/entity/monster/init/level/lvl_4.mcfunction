@@ -7,7 +7,7 @@ attribute @s armor modifier add 768b749e-0bb4-4bbd-b28a-11d84d336be6 26 add_valu
 
 tag @s add this
 
-setblock 0 319 0 oak_sign{front_text:{messages:['{"color": "light_purple","nbt":"CustomName","entity":"@e[tag=this,limit=1]","interpret":true}','{"text":""}','{"text":""}','{"text":""}']}} replace
+setblock 0 319 0 oak_sign{front_text:{messages:['{"color": "light_purple","nbt":"CustomName","entity":"@e[tag=this,limit=1]","interpret":true}',{"text":""},{"text":""},{"text":""}]}} replace
 
 data modify entity @s CustomName set from block 0 319 0 front_text.messages[0]
 

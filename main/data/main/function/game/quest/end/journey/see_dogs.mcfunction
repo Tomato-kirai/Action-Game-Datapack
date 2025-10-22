@@ -1,7 +1,7 @@
 #> main:game/quest/end/journey/see_dogs
 
-give @s minecraft:cookie[minecraft:custom_name='{"text": "エンチャントされたクッキー","bold": false,"italic": false}',minecraft:custom_data={enchanted_cookie:1b}] 22
-give @s minecraft:gold_nugget[minecraft:custom_name='{"text": "ゴールド","bold": false,"italic": false}',minecraft:custom_data={gold:1b}] 30
+give @s minecraft:cookie[minecraft:custom_name={"text": "エンチャントされたクッキー","bold": false,"italic": false},minecraft:custom_data={enchanted_cookie:1b}] 22
+give @s minecraft:gold_nugget[minecraft:custom_name={"text": "ゴールド","bold": false,"italic": false},minecraft:custom_data={gold:1b}] 30
 
 scoreboard players reset @s player.quest_progress
 
