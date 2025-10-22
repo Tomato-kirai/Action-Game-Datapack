@@ -8,7 +8,7 @@
           "name": "minecraft:bone",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{gold_value:800}"
             },
             {
@@ -22,6 +22,7 @@
               }
             },
             {
+              "mode": "replace_all",
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [

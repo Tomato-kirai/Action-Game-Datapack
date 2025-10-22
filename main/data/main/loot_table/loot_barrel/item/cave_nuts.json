@@ -8,7 +8,7 @@
           "name": "minecraft:pitcher_pod",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{food:1b,energy_value:150000}"
             },
             {
@@ -21,6 +21,7 @@
               }
             },
             {
+              "mode": "replace_all",
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
