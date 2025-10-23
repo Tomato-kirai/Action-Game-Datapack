@@ -1,0 +1,31 @@
+{
+        "criteria": {
+          "requirement": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{Tags:[\"IsInTeleportHole\"]}"
+                    }
+                  }
+                }
+              ],
+              "item": {
+                "predicates":{"custom_data": "{telepearl:1b}"}
+              },
+              "entity": {
+                "nbt": "{Tags:[\"TelepearlInteraction\"]}"
+              }
+            }
+          }
+        },
+        "rewards": {
+          "function": "main:world/item/utility/telepearl/func/change_location"
+        }
+      }
+      

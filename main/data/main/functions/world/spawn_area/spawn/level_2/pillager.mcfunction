@@ -1,3 +1,0 @@
-#> main:world/spawn_area/spawn/level_2/pillager
-
-summon pillager ~ ~ ~ {Tags:["Monster","RiverPillager","Level2"],Health:80f,HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{trash:1b,Enchantments:[{id:"minecraft:quick_charge",lvl:3s},{id:"minecraft:power",lvl:5s}]}},{}],Attributes:[{Name:"generic.max_health",Base:80}],DeathLootTable:"main:monster/level_2/pillager",CustomName:'{"text": "ボウガン","italic": false,"color": "white"}',CustomNameVisible:1b}

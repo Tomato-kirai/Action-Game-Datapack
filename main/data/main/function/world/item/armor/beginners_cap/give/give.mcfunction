@@ -1,0 +1,3 @@
+#> main:world/item/armor/beginners_cap/give/give
+
+give @p leather_helmet[custom_name=[{"text":"初心者の帽子","italic":false,"color":"white"}],lore=[[{"text":"初心者向け 特殊効果付きの帽子","italic":false,"color":"gray"}],[{"text":"防護 +1","bold":true,"italic":false,"color":"green"}],[{"text":"10秒ごとに2経験取得","bold":true,"italic":false,"color":"green"}]],attribute_modifiers=[{type:armor,amount:1,slot:feet,id:"generic.armor",operation:add_value}],unbreakable={},tooltip_display={hidden_components:[attribute_modifiers,unbreakable]}] 1
