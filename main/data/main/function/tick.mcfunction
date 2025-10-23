@@ -27,6 +27,8 @@ execute as @e[type=text_display] if entity @s[tag=DamageDisplay] at @s run funct
 
 execute as @e[type=text_display] if entity @s[tag=HealthDisplay] at @s run function main:world/entity/health_display/main
 
+execute as @e[type=text_display] if entity @s[tag=StatusDisplay] at @s run function main:world/entity/status_display/main
+
 execute as @e if entity @s[tag=Villager] at @s if entity @p[distance=..6] run function main:world/entity/villager/main
 
 execute as @e[type=marker] at @s run function main:world/entity/marker/main

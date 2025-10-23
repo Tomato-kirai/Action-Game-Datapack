@@ -140,6 +140,8 @@ scoreboard objectives add setting.send_level_enter_log dummy
 scoreboard objectives add setting.send_damaged_log dummy
 scoreboard objectives add setting.send_damage_hit_log dummy
 scoreboard objectives add setting.play_monster_spawn_sound dummy
+scoreboard objectives add setting.status_display_style dummy
+scoreboard objectives add setting.status_display_distance dummy
 #scoreboard objectives add setting.show_change_log dummy
 
 
