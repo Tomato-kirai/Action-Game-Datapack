@@ -1,6 +1,6 @@
 #> main:world/entity/player/status/max_health/macro
 
-$attribute @s generic.max_health base set $(value)
+$attribute @s max_health base set $(value)
 
 data remove storage temp: value
 
