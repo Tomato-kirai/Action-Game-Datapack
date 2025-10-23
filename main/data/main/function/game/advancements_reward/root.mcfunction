@@ -2,4 +2,4 @@
 
 function main:world/entity/player/init/init
 
-function main:world/item/my_tag/give/give
+function main:world/entity/player/init/give_my_tag
