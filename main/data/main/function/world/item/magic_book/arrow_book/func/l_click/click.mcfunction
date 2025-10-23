@@ -19,15 +19,15 @@ execute store result storage temp: damage double 1 run scoreboard players get @p
 function main:world/item/magic_book/arrow_book/func/l_click/shoot with storage temp:
 
 
-scoreboard players set $strength delta.api.launch -4000
-scoreboard players set $y delta.api.launch -4000
-function delta:api/launch_looking
-scoreboard players reset $strength delta.api.launch
+scoreboard players set $strength player_motion.api.launch -16000
+scoreboard players set $y player_motion.api.launch -16000
+function player_motion:api/launch_looking
+scoreboard players reset $strength player_motion.api.launch
 
-scoreboard players set $x delta.api.launch 0
-scoreboard players set $y delta.api.launch -5000
-scoreboard players set $z delta.api.launch 0
-function delta:api/launch_xyz
-scoreboard players reset $x delta.api.launch
-scoreboard players reset $y delta.api.launch
-scoreboard players reset $z delta.api.launch
+scoreboard players set $x player_motion.api.launch 0
+scoreboard players set $y player_motion.api.launch -32000
+scoreboard players set $z player_motion.api.launch 0
+function player_motion:api/launch_xyz
+scoreboard players reset $x player_motion.api.launch
+scoreboard players reset $y player_motion.api.launch
+scoreboard players reset $z player_motion.api.launch

@@ -6,4 +6,4 @@ tellraw @s {"text":"チェンジログをクリアする","color":"gray","underl
 clear @s written_book[custom_data~{change_log:1b}]
 
 #function main:pack/change_log/dev/231111a
-function main:pack/change_log/dev/231118a
+#function main:pack/change_log/dev/231118a
