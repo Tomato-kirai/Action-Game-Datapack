@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{food:1b,energy_value:180000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "鮭の姿焼き",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "mode": "replace_all",
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "食料アイテム",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "誰かが釣って焼いたものだろう",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "エネルギー: +18%",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,0 @@
-#> main:world/spawn_area/spawn/level_2/skeleton
-
-summon skeleton ~ ~ ~ {Health:40f,Tags:["Monster","Skeleton","Level2"],HandItems:[{id:"minecraft:bone",Count:1b,tag:{trash:1b}},{}],ArmorItems:[{},{},{},{id:"minecraft:diamond_helmet",Count:1b,tag:{trash:1b}}],Attributes:[{Name:"generic.max_health",Base:30},{Name:"generic.movement_speed",Base:0.4}],DeathLootTable:"main:monster/level_2/generic",CustomName:'{"text": "リバーサイドスケルトン","italic": false,"color": "white"}',CustomNameVisible:1b}

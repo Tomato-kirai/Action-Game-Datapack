@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 25,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:enchanted_cookie"
+        }
+      ]
+    },
+    {
+      "rolls": 90,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:gold"
+        }
+      ]
+    }
+  ]
+}

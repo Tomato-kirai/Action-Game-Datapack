@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+        ],
+        "item": {
+          "predicates":{"custom_data": "{boost_potion:1b}"}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:world/item/utility/boost_potion/func/drink"
+  }
+}

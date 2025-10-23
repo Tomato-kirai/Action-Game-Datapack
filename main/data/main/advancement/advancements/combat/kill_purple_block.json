@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "text": "こいつ… 生きてる??"
+    },
+    "description": [
+      {
+        "text": "パープル・ブロック・コアを破壊する",
+        "color": "green"
+      },
+      {
+        "text": "報酬: ",
+        "color": "gold"
+      },
+      {
+        "text": "ブロックの魔法の本",
+        "color": "white"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "main:advancements/combat/kill_arrow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"Monster\",\"Boss\",\"PurpleBlock\",\"Level5\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:game/advancements_reward/combat/kill_purple_block"
+  }
+}

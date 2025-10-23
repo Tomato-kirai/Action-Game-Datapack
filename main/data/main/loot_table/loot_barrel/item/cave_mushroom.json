@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{food:1b,energy_value:50000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "ドウクツダケ",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "mode": "replace_all",
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "食料アイテム",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "洞窟に生えるキノコ",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "エネルギー: +5%",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
