@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "main:enchanted_cookie"
+          "value": "main:enchanted_cookie"
         }
       ]
     },
@@ -21,7 +21,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "main:gold"
+          "value": "main:gold"
         }
       ]
     },
@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "main:loot_barrel/item/cave_mushroom",
+          "value": "main:loot_barrel/item/cave_mushroom",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "main:loot_barrel/item/cave_nuts",
+          "value": "main:loot_barrel/item/cave_nuts",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

@@ -1,6 +1,6 @@
 #> main:world/loot_marker/gen/gen
 
-setblock ~ ~ ~ barrel[facing=up,open=false]{Lock:"@"}
+setblock ~ ~ ~ barrel[facing=up,open=false]{lock:{components:{custom_data:{master_key:1b}}}}
 setblock ~ ~1 ~ barrier
 
 #execute store result score @s loot_marker.random run random value 0..100
