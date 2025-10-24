@@ -96,6 +96,7 @@ scoreboard objectives add player.energy dummy
 scoreboard objectives add player.energy_remove dummy
 scoreboard objectives add player.energy_food dummy
 scoreboard objectives add player.energy_ratio dummy
+scoreboard objectives add player.regeneration_timer dummy
 scoreboard players set $const player.energy_ratio 1000000
 scoreboard objectives add player.debug dummy
 

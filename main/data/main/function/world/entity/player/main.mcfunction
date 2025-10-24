@@ -61,6 +61,9 @@ execute if entity @s[gamemode=adventure] run function main:world/entity/player/e
 function main:world/entity/player/food/main
 #effect give @s saturation 1 255 true
 
+# 体力回復
+execute if score @s player.regeneration_timer matches 1.. run function main:world/entity/player/regeneration/main
+
 # 死んだ処理
 execute if score @s player.death matches 1.. run function main:world/entity/player/death/main
 
@@ -105,6 +108,3 @@ function main:world/gold_converter/main
 
 #設定
 execute if score @s player.trigger.setting matches 1.. run function main:game/setting/main
-
-
-effect give @s saturation infinite 200 true
