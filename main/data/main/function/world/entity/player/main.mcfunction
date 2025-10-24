@@ -103,5 +103,8 @@ function main:world/gold_converter/main
 
 #execute if entity @s[tag=RevokeRootAdvancements] run advancement revoke @s through main:advancements/root
 
+#設定
+execute if score @s player.trigger.setting matches 1.. run function main:game/setting/main
+
 
 effect give @s saturation infinite 200 true

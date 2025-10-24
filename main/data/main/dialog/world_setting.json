@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "World Settings",
+  "external_title": "Wizerds-Books Settings",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      "ワールドの設定が変更できます。",
+      "\n",
+      "ボタンをクリックする度に設定が繰り返し変更されます。"
+    ],
+    "width": 500
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close",
+  "exit_action": {
+    "label": "完了"
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "モンスターのスポーン音声",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger player.trigger.setting set 10"
+      }
+    },
+    {
+      "label": "チャットに与えたダメージ量を表示する",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger player.trigger.setting set 20"
+      }
+    },
+    {
+      "label": "チャットに受けたダメージ量を表示する",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger player.trigger.setting set 30"
+      }
+    },
+    {
+      "label": "チャットに入ったレベルを表示する",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger player.trigger.setting set 40"
+      }
+    },
+    {
+      "label": "ステータスの表示方法",
+      "tooltip": "パブリックとプライベートが選択できます。\nパブリックはすべてのプレイヤーにステータスが表示され\n一人称視点では浮遊された状態で表示されます。\nプライベートはアクションバーに表示されます。",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger player.trigger.setting set 50"
+      }
+    },
+    {
+      "label": "パブリックステータスの表示距離",
+      "tooltip": "視野角に対してステータスが見づらい場合に変更します。",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger player.trigger.setting set 60"
+      }
+    }
+  ]
+}

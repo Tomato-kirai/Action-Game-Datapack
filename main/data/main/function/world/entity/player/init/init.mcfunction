@@ -22,7 +22,7 @@ scoreboard players set @s setting.play_monster_spawn_sound 1
 scoreboard players set @s setting.send_damage_hit_log 0
 scoreboard players set @s setting.send_damaged_log 1
 scoreboard players set @s setting.send_level_enter_log 1
-scoreboard players set @s setting.status_display_style 0
+scoreboard players set @s setting.status_display_style 1
 scoreboard players set @s setting.status_display_distance 3
 
 scoreboard players set @s player.gold 0
