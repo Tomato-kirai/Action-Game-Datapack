@@ -8,4 +8,6 @@ execute if score @s item.food.eat_cooldown matches 3 run playsound entity.player
 
 scoreboard players remove @s item.food.eat_cooldown 1
 
-effect give @s slowness 1 0 true
+execute if score @s item.food.eat_cooldown matches ..1 run scoreboard players reset @s item.food.eat_cooldown
+
+effect give @s slowness 1 1 true
