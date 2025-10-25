@@ -5,23 +5,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_sword",
+          "name": "minecraft:oak_slab",
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{gold_value:900}"
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "!attribute_modifiers": {}
-              }
+              "tag": "{gold_value:300}"
             },
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "騎士の剣",
+                "text": "木の板",
                 "color": "white",
                 "bold": false,
                 "italic": false
@@ -39,13 +33,13 @@
                   "italic": false
                 },
                 {
-                  "text": "昔騎士が使っていた剣 錆びている",
+                  "text": "原木を原料とした木材",
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text": "価値: 900G",
+                  "text": "価値: 300G",
                   "color": "green",
                   "bold": false,
                   "italic": false

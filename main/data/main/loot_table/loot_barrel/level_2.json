@@ -1,3 +1,98 @@
 {
-    
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 10,
+        "max": 25
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:enchanted_cookie"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 20,
+        "max": 35
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:gold"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:loot_barrel/item/carrot",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:loot_barrel/item/pork",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:loot_barrel/item/wood_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:loot_barrel/item/knight_sword",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

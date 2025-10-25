@@ -8,6 +8,7 @@ setblock ~ ~1 ~ barrier
 
 execute if entity @s[tag=Level0] run data modify block ~ ~ ~ LootTable set value "main:loot_barrel/level_0"
 execute if entity @s[tag=Level1] run data modify block ~ ~ ~ LootTable set value "main:loot_barrel/level_1"
+execute if entity @s[tag=Level2] run data modify block ~ ~ ~ LootTable set value "main:loot_barrel/level_2"
 
 
 tag @s add Set
