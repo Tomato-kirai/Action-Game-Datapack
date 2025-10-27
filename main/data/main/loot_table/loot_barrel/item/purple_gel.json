@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{gold_value:250}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "パープルジェル",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "mode": "replace_all",
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "希少アイテム",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "パープルブロックから湧き出るネバネバした物体",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "生物の体内に入り込むと未知の感染症になる",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "価値: 250G",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

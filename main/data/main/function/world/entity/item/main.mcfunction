@@ -6,3 +6,5 @@ execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{trash:1b}}}
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{locked:1b}}}}] run kill @s
 
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{question:1b}}}}] if entity @e[nbt={Item:{components:{"minecraft:custom_data":{question:1b}}}},distance=0.5..,limit=1,sort=nearest] unless entity @e[tag=Boss,tag=Understanding] run function main:world/entity/item/summon_understanding
+
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{sheep_spawn:1b}}}}] run function main:world/entity/mob/sky_sheep/spawn

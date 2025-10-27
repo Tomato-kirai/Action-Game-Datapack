@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 35,
+        "max": 40
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:enchanted_cookie"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 50,
+        "max": 60
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:gold"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:loot_barrel/item/sheep_spawn",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

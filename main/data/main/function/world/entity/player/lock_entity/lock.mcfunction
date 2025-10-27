@@ -1,4 +1,4 @@
-#> main:world/entity/player/lock_monster/lock
+#> main:world/entity/player/lock_entity/lock
 
 tag @s add Locked
 

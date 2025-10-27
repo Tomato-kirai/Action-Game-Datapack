@@ -1,4 +1,4 @@
-#> main:world/entity/player/lock_monster/unlock
+#> main:world/entity/player/lock_entity/unlock
 
 tag @s remove Locked
 

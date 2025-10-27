@@ -10,6 +10,7 @@ execute as @a at @s run function main:world/entity/player/main
 execute as @e[tag=Monster] if entity @s[tag=Initialized] at @s run function main:world/entity/monster/tick
 execute as @e[tag=Monster] unless entity @s[tag=Initialized] at @s run function main:world/entity/monster/init/init
 
+execute as @e[tag=Mob] at @s run function main:world/entity/mob/tick
 
 execute as @e[type=interaction] if entity @s[tag=Interaction] at @s run function main:world/entity/interaction/main
 

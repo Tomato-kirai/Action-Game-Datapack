@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{food:1b,energy_value:50000}"
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "potion_contents": {
+                        "custom_color": 65314
+                    },
+                    "tooltip_display": {
+                      "hidden_components": [
+                        "potion_contents"
+                      ]
+                    }
+                }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "浄化されたパープルジェル",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "mode": "replace_all",
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "食料アイテム",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ジェルを浄化し瓶に詰め込んだもの",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "色は良くないがエナジードリンクような効果がある",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "エネルギー: +5%",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

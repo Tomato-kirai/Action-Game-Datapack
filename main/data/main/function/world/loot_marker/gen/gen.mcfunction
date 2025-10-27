@@ -11,6 +11,8 @@ execute if entity @s[tag=Level1] run data modify block ~ ~ ~ LootTable set value
 execute if entity @s[tag=Level2] run data modify block ~ ~ ~ LootTable set value "main:loot_barrel/level_2"
 execute if entity @s[tag=Level3] run data modify block ~ ~ ~ LootTable set value "main:loot_barrel/level_3"
 execute if entity @s[tag=Level4] run data modify block ~ ~ ~ LootTable set value "main:loot_barrel/level_4"
+execute if entity @s[tag=Level5] run data modify block ~ ~ ~ LootTable set value "main:loot_barrel/level_5"
+execute if entity @s[tag=Level6] run data modify block ~ ~ ~ LootTable set value "main:loot_barrel/level_6"
 
 
 tag @s add Set

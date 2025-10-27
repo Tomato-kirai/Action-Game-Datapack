@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_concrete",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{gold_value:500}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "パープルブロックのかけら",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "mode": "replace_all",
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "希少アイテム",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "大きなパープルブロックから発生するかけら",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "このかけらから大きなのパープルブロックに成長する",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "無性生殖の生物のようだ...",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "価値: 500G",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
