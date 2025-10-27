@@ -7,7 +7,7 @@ tag @s add this
 execute anchored eyes positioned ^ ^ ^ run function main:world/item/utility/revolver/func/shoot/loop
 
 
-execute store result score @s item.revolver.ammo run data get entity @s SelectedItem.tag.ammo
+execute store result score @s item.revolver.ammo run data get entity @s SelectedItem.components.minecraft:custom_data.ammo
 scoreboard players remove @s item.revolver.ammo 1
 execute store result storage temp: ammo int 1 run scoreboard players get @s item.revolver.ammo
 item modify entity @s weapon.mainhand main:utility/revolver/remove_ammo
