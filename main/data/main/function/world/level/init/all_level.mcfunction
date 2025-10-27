@@ -7,3 +7,4 @@ advancement revoke @s only main:enter_level/level_3
 advancement revoke @s only main:enter_level/level_4
 advancement revoke @s only main:enter_level/level_5
 advancement revoke @s only main:enter_level/level_6
+advancement revoke @s only main:enter_level/level_7

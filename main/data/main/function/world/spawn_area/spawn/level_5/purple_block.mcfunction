@@ -1,3 +1,3 @@
 #> main:world/spawn_area/spawn/level_5/purple_block
 
-execute unless entity @e[tag=Boss,tag=PurpleBlock] run summon giant 85.999 119 575.999 {CustomNameVisible:0b,DeathLootTable:"main:monster/level_5/purple_block",Health:1000f,Tags:["Monster","Boss","PurpleBlock","Level5"],CustomName:{"text":"パープル・ブロック・コア","color":"white","italic":false},attributes:[{id:"max_health",base:1000},{id:"follow_range",base:90}],NoAI:1b,Silent:1b,PersistenceRequired:1b}
+execute unless entity @e[tag=Boss,tag=PurpleBlock] run summon ghast 85.999 119 575.999 {CustomNameVisible:0b,DeathLootTable:"main:monster/level_5/purple_block",Health:1000f,Tags:["Monster","Boss","PurpleBlock","Level5"],CustomName:{"text":"パープル・ブロック・コア","color":"white","italic":false},attributes:[{id:"max_health",base:1000},{id:"follow_range",base:90}],NoAI:1b,Silent:1b,PersistenceRequired:1b}
