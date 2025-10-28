@@ -84,6 +84,9 @@ execute if score @s player.respawn_timer matches 0.. run function main:world/ent
 #チェンジログクリア
 execute if score @s player.trigger.clear_change_log matches 1.. run function main:pack/change_log/clear_change_log
 
+#チェンジログ表示
+execute if score @s player.trigger.show_change_log matches 1.. run function main:pack/change_log/show_change_log
+
 # pos_y
 execute store result score @s player.pos_y run data get entity @s Pos[1]
 execute if score @s player.pos_y matches 70..85 unless entity @s[tag=CantFloat] run function main:world/entity/player/float/main

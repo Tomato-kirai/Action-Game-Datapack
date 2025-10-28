@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:notice",
+  "title": "Change Log",
+  "external_title": "Change Log",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      "251028a",
+      "\n",
+      "\n",
+      "1.21.10に対応しました。",
+      "\n",
+      "エネルギーシステムと戦利品を追加しました。",
+      "\n",
+      "設定画面を追加しました。",
+      "\n",
+      "様々な調整やバグ修正を行いました。"
+    ],
+    "width": 800
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close"
+}

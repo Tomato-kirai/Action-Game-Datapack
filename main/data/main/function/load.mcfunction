@@ -28,6 +28,7 @@ scoreboard objectives add game.spawn_timer dummy
 scoreboard objectives add player.trigger.clear_change_log trigger
 scoreboard objectives add player.trigger.arrows_computer_shop trigger
 scoreboard players enable @a player.trigger.arrows_computer_shop
+scoreboard objectives add player.trigger.show_change_log trigger
 
 scoreboard objectives add player.trigger.setting trigger
 
