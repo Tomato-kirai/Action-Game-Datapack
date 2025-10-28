@@ -2,6 +2,8 @@
 
 function main:game/tick
 
+execute as @a at @s as @e[type=text_display] if entity @s[tag=StatusDisplay] if score @p player.uid = @s status_display.owner run function main:world/entity/status_display/main
+
 execute as @a at @s run function main:world/entity/player/main
 
 #execute as @e[tag=WandRay] at @s run function main:world/entity/wand_ray/main
@@ -27,8 +29,6 @@ execute as @e[tag=LootMarker] at @s if entity @p[distance=..64] run function mai
 execute as @e[type=text_display] if entity @s[tag=DamageDisplay] at @s run function main:world/entity/damage_display/main
 
 execute as @e[type=text_display] if entity @s[tag=HealthDisplay] at @s run function main:world/entity/health_display/main
-
-execute as @e[type=text_display] if entity @s[tag=StatusDisplay] at @s run function main:world/entity/status_display/main
 
 execute as @e if entity @s[tag=Villager] at @s if entity @p[distance=..6] run function main:world/entity/villager/main
 

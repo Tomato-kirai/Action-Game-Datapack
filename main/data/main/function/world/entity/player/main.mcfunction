@@ -3,6 +3,9 @@
 # xp 129に設定
 xp set @s 129 levels
 
+# UID設定
+execute unless score @s player.uid matches 0.. run function main:world/entity/player/gen_uid/gen
+
 # ゲーム退出
 execute if score @s player.leave_game matches 1.. run function main:game/login_msg/msg
 

@@ -73,6 +73,8 @@ scoreboard players set $-20 player.vector.v_temp -20
 scoreboard objectives add player.status.xp_required dummy
 scoreboard players set $const player.status.xp_required 32
 
+scoreboard objectives add player.uid dummy
+
 scoreboard objectives add player.respawn_timer dummy
 scoreboard objectives add player.g_health health
 scoreboard objectives add player.mp dummy
@@ -120,6 +122,7 @@ scoreboard players set $const player.damage_taken 10
 
 scoreboard objectives add interaction.life dummy
 scoreboard objectives add health_display.life dummy
+scoreboard objectives add status_display.owner dummy
 
 scoreboard objectives add monster.max_health dummy
 scoreboard objectives add monster.level_random dummy
