@@ -10,5 +10,6 @@ playsound block.deepslate.break hostile @a ~ ~ ~ 2 2
 playsound block.stone.break hostile @a ~ ~ ~ 2 2
 playsound entity.firework_rocket.large_blast hostile @a ~ ~ ~ 2 2
 
+tag @s remove this
 
 #say a

@@ -9,4 +9,6 @@ execute anchored eyes positioned ^ ^ ^ run function main:world/entity/monster/ai
 playsound entity.iron_golem.hurt hostile @a ~ ~ ~ 2 2
 playsound entity.iron_golem.damage hostile @a ~ ~ ~ 2 2
 
+tag @s remove this
+
 #say a
