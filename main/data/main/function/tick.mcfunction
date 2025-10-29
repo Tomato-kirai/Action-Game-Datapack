@@ -3,6 +3,8 @@
 function main:game/tick
 
 execute as @a at @s as @e[type=text_display] if entity @s[tag=StatusDisplay] if score @p player.uid = @s status_display.owner run function main:world/entity/status_display/main
+execute as @e[type=text_display] if entity @s[tag=StatusDisplay] at @s unless entity @p[distance=..2] run function main:world/entity/status_display/respawn
+
 
 execute as @a at @s run function main:world/entity/player/main
 

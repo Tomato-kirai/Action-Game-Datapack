@@ -13,5 +13,3 @@ data merge entity @s {text:[{selector:"@p"},{text:" "},{text:"(",color:dark_gree
 #particle crit ~ ~ ~ 0 0 0 1 1 force @a
 
 #execute unless entity @p run say a
-
-execute unless entity @p[distance=..2] run function main:world/entity/status_display/respawn
