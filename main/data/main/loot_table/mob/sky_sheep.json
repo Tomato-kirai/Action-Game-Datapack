@@ -21,7 +21,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:mob/item/cotton_candy",
+          "value": "main:food/cotton_candy",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

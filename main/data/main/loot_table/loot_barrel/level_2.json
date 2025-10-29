@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/carrot",
+          "value": "main:food/carrot",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/pork",
+          "value": "main:food/pork",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -69,7 +69,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/wood_planks",
+          "value": "main:loot/wood_planks",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -84,7 +84,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/knight_sword",
+          "value": "main:loot/knight_sword",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

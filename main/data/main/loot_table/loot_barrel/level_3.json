@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/apple",
+          "value": "main:food/apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/bread",
+          "value": "main:food/bread",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -69,7 +69,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/arrow",
+          "value": "main:loot/arrow",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -84,7 +84,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/diamond",
+          "value": "main:loot/diamond",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -99,7 +99,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/emerald",
+          "value": "main:loot/emerald",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -114,7 +114,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/sparkling_arrow",
+          "value": "main:loot/sparkling_arrow",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

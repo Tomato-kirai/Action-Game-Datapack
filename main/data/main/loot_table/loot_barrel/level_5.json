@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/sheep_spawn",
+          "value": "main:loot/sheep_spawn",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

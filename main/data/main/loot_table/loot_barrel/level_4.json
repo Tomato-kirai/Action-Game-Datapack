@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/energy_bar",
+          "value": "main:food/energy_bar",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/cookie",
+          "value": "main:food/cookie",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -69,7 +69,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/ammo",
+          "value": "main:loot/ammo",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -87,7 +87,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/tourniquet",
+          "value": "main:loot/tourniquet",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

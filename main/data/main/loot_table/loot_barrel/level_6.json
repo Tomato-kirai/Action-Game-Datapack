@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/purified_purple_block_fragment",
+          "value": "main:food/purified_purple_block_fragment",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/purified_purple_gel",
+          "value": "main:food/purified_purple_gel",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -69,7 +69,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/purple_block_fragment",
+          "value": "main:loot/purple_block_fragment",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -87,7 +87,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/purple_gel",
+          "value": "main:loot/purple_gel",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

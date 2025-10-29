@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/cave_mushroom",
+          "value": "main:food/cave_mushroom",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot_barrel/item/cave_nuts",
+          "value": "main:food/cave_nuts",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
