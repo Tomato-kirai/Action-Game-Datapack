@@ -28,7 +28,7 @@
               "lore": [
                 {
                   "text": "希少アイテム",
-                  "color": "yellow",
+                  "color": "white",
                   "bold": false,
                   "italic": false
                 },
@@ -52,7 +52,7 @@
                 },
                 {
                   "text": "価値: 500G",
-                  "color": "green",
+                  "color": "yellow",
                   "bold": false,
                   "italic": false
                 }

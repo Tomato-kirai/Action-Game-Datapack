@@ -5,11 +5,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:brush",
+          "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_custom_data",
               "tag": "{gold_value:300}"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "brush"
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -28,7 +34,7 @@
               "lore": [
                 {
                   "text": "希少アイテム",
-                  "color": "yellow",
+                  "color": "white",
                   "bold": false,
                   "italic": false
                 },
@@ -40,7 +46,7 @@
                 },
                 {
                   "text": "価値: 300G",
-                  "color": "green",
+                  "color": "yellow",
                   "bold": false,
                   "italic": false
                 }

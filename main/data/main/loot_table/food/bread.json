@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{food:1b,energy_value:100000}"
+              "tag": "{food:1b,energy_value:100000,gold_value:10}"
             },
             {
               "function": "minecraft:set_name",
@@ -28,7 +28,7 @@
               "lore": [
                 {
                   "text": "食料アイテム",
-                  "color": "yellow",
+                  "color": "white",
                   "bold": false,
                   "italic": false
                 },
@@ -41,6 +41,12 @@
                 {
                   "text": "エネルギー: +10%",
                   "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "価値: 10G",
+                  "color": "yellow",
                   "bold": false,
                   "italic": false
                 }
