@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
+          "name": "minecraft:lime_dye",
           "functions": [
             {
               "function": "minecraft:set_custom_data",
@@ -46,13 +46,13 @@
                   "italic": false
                 },
                 {
-                  "text": "ジェルを浄化し瓶に詰め込んだもの",
+                  "text": "ジェルを浄化したもの",
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text": "色は良くないがエナジードリンクような効果がある",
+                  "text": "色は良くないが力が湧いてくる効果がある",
                   "color": "gray",
                   "bold": false,
                   "italic": false
