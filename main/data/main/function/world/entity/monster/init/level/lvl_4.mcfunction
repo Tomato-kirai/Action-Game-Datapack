@@ -3,7 +3,7 @@
 attribute @s max_health modifier add b4d7f578-b14e-47ef-87ec-8c60e1d65144 40 add_value
 data merge entity @s {Health:2097152}
 
-attribute @s armor modifier add 768b749e-0bb4-4bbd-b28a-11d84d336be6 8 add_value
+attribute @s armor modifier add 768b749e-0bb4-4bbd-b28a-11d84d336be6 4 add_value
 
 tag @s add this
 

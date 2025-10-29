@@ -1,6 +1,6 @@
 #> main:world/entity/monster/init/level/lvl_2
 
-attribute @s max_health modifier add b4d7f578-b14e-47ef-87ec-8c60e1d65144 10 add_value
+attribute @s max_health modifier add b4d7f578-b14e-47ef-87ec-8c60e1d65144 20 add_value
 data merge entity @s {Health:2097152}
 
 attribute @s armor modifier add 768b749e-0bb4-4bbd-b28a-11d84d336be6 2 add_value
