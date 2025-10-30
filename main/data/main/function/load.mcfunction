@@ -143,6 +143,10 @@ scoreboard objectives add monster.seconds dummy
 
 scoreboard objectives add damage_display.age dummy
 
+scoreboard objectives add purple_block_meteor.move_count dummy
+scoreboard objectives add purple_block_meteor.damage dummy
+scoreboard objectives add purple_block_meteor.owner dummy
+
 scoreboard objectives add setting.send_level_enter_log dummy
 scoreboard objectives add setting.send_damaged_log dummy
 scoreboard objectives add setting.send_damage_hit_log dummy

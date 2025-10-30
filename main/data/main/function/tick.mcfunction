@@ -34,6 +34,8 @@ execute as @e[type=text_display] if entity @s[tag=HealthDisplay] at @s run funct
 
 execute as @e if entity @s[tag=Villager] at @s if entity @p[distance=..6] run function main:world/entity/villager/main
 
+execute as @e[tag=PurpleBlockMeteor] at @s run function main:world/item/magic_book/block_book/func/purple_block_meteor/main
+
 execute as @e[type=marker] at @s run function main:world/entity/marker/main
 
 execute as @e[type=experience_orb] run kill @s
