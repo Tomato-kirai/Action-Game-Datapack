@@ -171,6 +171,7 @@ scoreboard objectives add item.revolver.cooldown dummy
 scoreboard objectives add item.revolver.ammo dummy
 scoreboard objectives add item.food.eat_cooldown dummy
 scoreboard objectives add item.food.energy_value dummy
+scoreboard objectives add item.block_book.move_count dummy
 
 scoreboard objectives add gold_converter.gold dummy
 scoreboard objectives add gold_converter.gold_temp dummy

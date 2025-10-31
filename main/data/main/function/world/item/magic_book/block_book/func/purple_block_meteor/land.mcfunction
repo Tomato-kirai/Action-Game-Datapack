@@ -1,6 +1,10 @@
 #> main:world/item/magic_book/block_book/func/purple_block_meteor/core/land
 
-playsound block.anvil.land player @a ~ ~ ~ 1 0
+playsound block.anvil.land player @a ~ ~ ~ 2 0
+playsound entity.zombie.attack_wooden_door player @a ~ ~ ~ 2 0
+playsound entity.zombie.destroy_egg player @a ~ ~ ~ 2 0
+
+particle block{block_state:{Name:"purple_concrete"}} ~ ~2 ~ 2 2 2 0 200 force @a
 
 execute store result storage temp: damage int 1 run scoreboard players get @s purple_block_meteor.damage
 
