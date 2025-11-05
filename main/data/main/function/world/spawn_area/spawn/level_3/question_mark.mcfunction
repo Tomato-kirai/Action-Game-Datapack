@@ -4,7 +4,7 @@ summon skeleton ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"main:monster/level_3
 
 item replace entity @n[distance=..0.01,tag=SetEquipment] weapon.mainhand with iron_sword[custom_data={trash:1b}]
 
-item replace entity @n[distance=..0.01,tag=SetEquipment] weapon.offhand with green_shulker_box[custom_name={"text":"疑問","color":"dark_green","bold":false,"italic":false},custom_data={question:1b}]
+item replace entity @n[distance=..0.01,tag=SetEquipment] weapon.offhand with stick[item_model="green_shulker_box",custom_name={"text":"疑問","color":"dark_green","bold":false,"italic":false},custom_data={question:1b}]
 
 item replace entity @n[distance=..0.01,tag=SetEquipment] armor.head with player_head[custom_data={trash:1b},profile={name:"MHF_Question"}]
 
