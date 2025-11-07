@@ -10,7 +10,7 @@ execute unless score @s player.uid matches 0.. run function main:world/entity/pl
 execute if score @s player.leave_game matches 1.. run function main:game/login_msg/msg
 
 # ディスプレイ
-function main:world/entity/player/display/main
+execute unless entity @s[tag=PlayingES] run function main:world/entity/player/display/main
 
 # 進入禁止
 execute if entity @s[gamemode=adventure] unless entity @s[tag=IsInTeleportHole] unless score @s player.entered_level matches 5 unless biome ~ ~ ~ #main:playable run function main:world/entity/player/no_entry/main
