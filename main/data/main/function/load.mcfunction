@@ -4,6 +4,15 @@
 # t = temp
 # g = get
 
+gamerule doMobSpawning false
+gamerule keepInventory true
+gamerule spawnRadius 0
+gamerule doDaylightCycle false
+gamerule doWeatherCycle false
+
+time set day
+weather clear
+
 scoreboard objectives add game.remove_mp dummy
 scoreboard objectives add game.set_max_health dummy
 scoreboard objectives add game.spawn_random dummy
