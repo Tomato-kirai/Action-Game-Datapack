@@ -1,1 +1,1 @@
-execute align xyz positioned ~0.5 ~0.5 ~0.5 run summon marker ~ ~ ~ {Tags:["ES","LootBlockMarker"]}
+$execute align xyz positioned ~0.5 ~0.8 ~0.5 run summon interaction ~ ~ ~ {Tags:["ES","LootBlockMarker"],data:{loot_table:"$(loot_table)"},width:1.05,height:0.15}

@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": "{pickaxe:1b}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"ES\",\"LootBlockMarker\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "function": "es:world/item/pickaxe/attack_loot"
+  }
+}

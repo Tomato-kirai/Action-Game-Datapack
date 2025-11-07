@@ -1,0 +1,1 @@
+$loot insert ~ ~-0.5 ~ loot $(loot_table)

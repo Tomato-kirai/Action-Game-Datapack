@@ -1,7 +1,5 @@
-# ツルハシのインタラクションを1ブロックにする
+execute on attacker if entity @s as @n[tag=LootBlockMarker,distance=..0.1] run function es:world/entity/loot_block_marker/attacked
 
-execute if score @s es.entity.loot_block_marker.opend_player matches 0.. run function es:world/entity/loot_block_marker/opend
+execute if entity @s[tag=Spawnable] if entity @s[tag=Attacked] run function es:world/entity/loot_block_marker/spawn_item/spawn
 
-#execute if score @s es.entity.loot_block_marker.spawnable_count matches ..0 run function es:world/entity/loot_block_marker/lock
-
-#scoreboard players reset @s es.entity.loot_block_marker.opend_player
+execute if entity @s[tag=Attacked] run tag @s remove Attacked
