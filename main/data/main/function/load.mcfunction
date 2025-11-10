@@ -9,6 +9,7 @@ gamerule keepInventory true
 gamerule spawnRadius 0
 gamerule doDaylightCycle false
 gamerule doWeatherCycle false
+gamerule commandModificationBlockLimit 2147483647
 
 time set day
 weather clear
@@ -24,6 +25,7 @@ scoreboard players set $158 game.const 158
 scoreboard players set $100 game.const 100
 scoreboard players set $38 game.const 38
 scoreboard players set $25 game.const 25
+scoreboard players set $32 game.const 32
 scoreboard players set $10 game.const 10
 scoreboard players set $9 game.const 9
 scoreboard players set $7 game.const 7

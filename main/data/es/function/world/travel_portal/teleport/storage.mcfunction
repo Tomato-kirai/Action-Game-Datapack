@@ -1,0 +1,1 @@
+function es:world/storage/check_data

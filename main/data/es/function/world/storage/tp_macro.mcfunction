@@ -1,0 +1,1 @@
+$tp @s @n[nbt={data:{owner:"$(storage_name)"}}]

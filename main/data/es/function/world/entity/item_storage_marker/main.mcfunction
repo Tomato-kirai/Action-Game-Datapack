@@ -1,0 +1,1 @@
+particle dust{color:6422783,scale:1} ~ ~ ~ 1 0 1 1 50 normal @a

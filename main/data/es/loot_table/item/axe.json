@@ -6,22 +6,28 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_pickaxe",
+          "name": "minecraft:copper_axe",
           "functions": [
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "name": "ツルハシ",
+              "name": "オノ",
               "target": "item_name"
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{pickaxe:1b}"
+              "tag": "{axe:1b}"
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:unbreakable": {}
+                "minecraft:unbreakable": {},
+                "minecraft:can_break": {
+                  "blocks": [
+                    "minecraft:chest",
+                    "minecraft:scaffolding"
+                  ]
+                }
               }
             },
             {
