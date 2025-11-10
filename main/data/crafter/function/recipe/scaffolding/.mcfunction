@@ -1,3 +1,3 @@
-tag @s add Event.CraftSuccess
+function crafter:core/player/craft_success/give_item {loot_table:"crafter:recipe/scaffolding"}
 
-function crafter:core/player/craft_success/give_item {loot_table:"es:item/scaffolding"}
+tag @s add Event.CraftSuccess
