@@ -6,13 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "scaffolding",
+          "name": "minecraft:oak_planks",
           "conditions": [],
           "functions": [
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "name": "足場",
+              "name": "板材",
               "target": "item_name"
             },
             {
@@ -20,13 +20,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "その他",
+                  "text": "素材",
                   "color": "dark_gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text": "倉庫内で使える足場",
+                  "text": "木製のアイテムの制作に使用される",
                   "color": "gray",
                   "bold": false,
                   "italic": false
@@ -36,19 +36,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{id:\"scaffolding\"}"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:can_place_on": {
-                  "blocks": [
-                    "minecraft:bedrock",
-                    "minecraft:chest",
-                    "minecraft:scaffolding"
-                  ]
-                }
-              }
+              "tag": "{id:\"planks\"}"
             }
           ]
         }
