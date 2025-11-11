@@ -1,0 +1,1 @@
+execute positioned 10000 0 0 run tp @s ~ ~ ~

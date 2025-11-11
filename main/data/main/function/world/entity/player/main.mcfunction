@@ -92,7 +92,7 @@ execute if score @s player.trigger.show_change_log matches 1.. run function main
 
 # pos_y
 execute store result score @s player.pos_y run data get entity @s Pos[1]
-execute if score @s player.pos_y matches 70..85 unless entity @s[tag=CantFloat] run function main:world/entity/player/float/main
+execute if score @s player.pos_y matches 70..85 unless entity @s[tag=CantFloat] unless entity @s[tag=PlayingES] run function main:world/entity/player/float/main
 
 # cant_float
 execute if entity @s[tag=CantFloat] run function main:world/entity/player/float/cant_float

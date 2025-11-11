@@ -1,4 +1,4 @@
-data merge entity @s {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["Entity","Entity.CrafterInv"],DisplayState:{Name:"minecraft:air"},CustomNameVisible:0b,CustomName:{"bold":false,"italic":false,"text":"クラフター"}}
+data merge entity @s {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["Entity","Entity.CrafterInv"],DisplayOffset:-1024,DisplayState:{Name:"minecraft:air"},CustomNameVisible:0b,CustomName:{"bold":false,"italic":false,"text":"クラフター"}}
 
 function crafter:core/crafter_inv/fill_slot
 
