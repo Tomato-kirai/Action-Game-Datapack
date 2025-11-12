@@ -5,12 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_axe",
+          "name": "minecraft:wooden_axe",
+          "conditions": [],
           "functions": [
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "name": "オノ",
+              "name": "木の斧",
               "target": "item_name"
             },
             {
@@ -18,13 +19,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "その他",
+                  "text": "武器",
                   "color": "dark_gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text": "倉庫内で使えるオノ",
+                  "text": "木で出来たよわい斧",
                   "color": "gray",
                   "bold": false,
                   "italic": false
@@ -34,25 +35,31 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{axe:1b}"
+              "tag": "{id:\"wooden_axe\"}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "es:attack_damage",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "id": "es:attack_speed",
+                  "amount": -3.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:unbreakable": {},
-                "minecraft:can_break": {
-                  "blocks": [
-                    "minecraft:chest",
-                    "minecraft:scaffolding"
-                  ]
-                }
-              }
-            },
-            {
-              "function": "minecraft:toggle_tooltips",
-              "toggles": {
-                "minecraft:attribute_modifiers": false,
-                "minecraft:unbreakable": false
+                "minecraft:max_damage": 49
               }
             }
           ]

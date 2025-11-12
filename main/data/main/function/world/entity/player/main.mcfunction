@@ -60,7 +60,7 @@ execute if score @s game.remove_mp matches 1.. run function main:world/entity/pl
 #scoreboard players set @s player.mp 1000
 
 # エネルギー
-execute if entity @s[gamemode=adventure] run function main:world/entity/player/energy/main
+execute if entity @s[gamemode=adventure] unless entity @s[tag=PlayingES] run function main:world/entity/player/energy/main
 function main:world/entity/player/food/main
 #effect give @s saturation 1 255 true
 

@@ -5,12 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_axe",
+          "name": "minecraft:stick",
+          "conditions": [],
           "functions": [
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "name": "オノ",
+              "name": "棒",
               "target": "item_name"
             },
             {
@@ -18,13 +19,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "その他",
+                  "text": "素材",
                   "color": "dark_gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text": "倉庫内で使えるオノ",
+                  "text": "一部の木製のアイテムの制作に使用される",
                   "color": "gray",
                   "bold": false,
                   "italic": false
@@ -34,26 +35,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{axe:1b}"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:unbreakable": {},
-                "minecraft:can_break": {
-                  "blocks": [
-                    "minecraft:chest",
-                    "minecraft:scaffolding"
-                  ]
-                }
-              }
-            },
-            {
-              "function": "minecraft:toggle_tooltips",
-              "toggles": {
-                "minecraft:attribute_modifiers": false,
-                "minecraft:unbreakable": false
-              }
+              "tag": "{id:\"stick\"}"
             }
           ]
         }
