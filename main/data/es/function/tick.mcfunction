@@ -1,3 +1,5 @@
+execute as @e[tag=Event.Hit] run tag @s remove Event.Hit
+
 function es:world/tick
 
 execute as @e[tag=Entity.CrafterInv] at @s run function crafter:core/crafter_inv/main

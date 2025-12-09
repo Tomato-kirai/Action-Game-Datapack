@@ -1,3 +1,6 @@
+# ITEMS
+function es:world/item/main
+
 # クラフター
 function crafter:core/player/main
 
