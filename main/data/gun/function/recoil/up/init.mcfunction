@@ -1,0 +1,1 @@
+scoreboard players operation @s gun.recoil_down += @s gun.recoil

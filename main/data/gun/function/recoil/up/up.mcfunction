@@ -1,0 +1,10 @@
+execute if score @s gun.recoil matches 1 run function gun:recoil/up/1
+execute if score @s gun.recoil matches 2..3 run function gun:recoil/up/2
+execute if score @s gun.recoil matches 4..7 run function gun:recoil/up/4
+execute if score @s gun.recoil matches 8..15 run function gun:recoil/up/8
+execute if score @s gun.recoil matches 16..31 run function gun:recoil/up/16
+execute if score @s gun.recoil matches 32..63 run function gun:recoil/up/32
+execute if score @s gun.recoil matches 64..127 run function gun:recoil/up/64
+execute if score @s gun.recoil matches 128..255 run function gun:recoil/up/128
+execute if score @s gun.recoil matches 256..1023 run function gun:recoil/up/256
+execute if score @s gun.recoil matches 1024.. run function gun:recoil/up/1024

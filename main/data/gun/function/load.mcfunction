@@ -18,9 +18,13 @@ scoreboard objectives add gun.bullet_owner dummy
 scoreboard objectives add gun.pattern dummy
 scoreboard objectives add gun.range dummy
 scoreboard objectives add gun.damage dummy
+scoreboard objectives add gun.recoil dummy
+scoreboard objectives add gun.recoil_down dummy
 
 scoreboard objectives add gun.item_damage_reducer dummy
 
 scoreboard objectives add gun.drop_gun custom:drop
 
 scoreboard objectives add player.ammo dummy
+
+say a

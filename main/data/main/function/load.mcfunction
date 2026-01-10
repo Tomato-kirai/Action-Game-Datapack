@@ -4,12 +4,12 @@
 # t = temp
 # g = get
 
-gamerule doMobSpawning false
-gamerule keepInventory true
-gamerule spawnRadius 0
-gamerule doDaylightCycle false
-gamerule doWeatherCycle false
-gamerule commandModificationBlockLimit 2147483647
+gamerule spawn_mobs false
+gamerule keep_inventory true
+gamerule respawn_radius 0
+gamerule advance_time false
+gamerule advance_weather false
+gamerule max_block_modifications 2147483647
 
 time set day
 weather clear
