@@ -1,0 +1,1 @@
+execute summon wither_skeleton run function es:world/entity/monster/black_ghost/setup
