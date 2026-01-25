@@ -32,6 +32,7 @@ scoreboard players set $7 game.const 7
 scoreboard players set $5 game.const 5
 scoreboard players set $3 game.const 3
 scoreboard players set $2 game.const 2
+scoreboard players set $1 game.const 1
 scoreboard players set $-1 game.const -1
 
 scoreboard objectives add game.spawn_timer dummy

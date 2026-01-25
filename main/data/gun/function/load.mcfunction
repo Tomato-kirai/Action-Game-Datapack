@@ -20,6 +20,9 @@ scoreboard objectives add gun.range dummy
 scoreboard objectives add gun.damage dummy
 scoreboard objectives add gun.recoil dummy
 scoreboard objectives add gun.recoil_down dummy
+scoreboard objectives add gun.first_facing dummy
+scoreboard objectives add gun.current_facing dummy
+scoreboard objectives add gun.calculated_facing dummy
 
 scoreboard objectives add gun.item_damage_reducer dummy
 
