@@ -1,0 +1,1 @@
+execute summon skeleton run function es:world/entity/monster/white_ghost/setup

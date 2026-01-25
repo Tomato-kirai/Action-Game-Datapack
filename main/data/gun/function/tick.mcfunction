@@ -1,0 +1,1 @@
+execute if score @s gun.drop_gun matches 1.. run function gun:show_status/drop

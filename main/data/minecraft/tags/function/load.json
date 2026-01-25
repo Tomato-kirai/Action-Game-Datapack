@@ -1,5 +1,8 @@
 {
     "values": [
-        "main:load"
+        "main:load",
+        "es:load",
+        "crafter:load",
+        "gun:load"
     ]
 }

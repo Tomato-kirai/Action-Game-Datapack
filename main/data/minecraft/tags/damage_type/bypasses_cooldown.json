@@ -1,5 +1,6 @@
 {
     "values":[
-        "main:magic"
+        "main:magic",
+        "gun:bullet"
     ]
 }

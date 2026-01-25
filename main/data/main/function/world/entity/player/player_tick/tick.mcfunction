@@ -2,9 +2,9 @@
 
 advancement revoke @s only main:player/player_tick
 
-function main:world/entity/player/status/main
+execute unless entity @s[tag=PlayingES] run function main:world/entity/player/status/main
 
-function main:world/entity/player/init/level_and_gold
+execute unless entity @s[tag=PlayingES] run function main:world/entity/player/init/level_and_gold
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{my_tag:1b}}}}] run function main:world/entity/player/get_player_status/get
 

@@ -4,6 +4,16 @@
 # t = temp
 # g = get
 
+gamerule spawn_mobs false
+gamerule keep_inventory true
+gamerule respawn_radius 0
+gamerule advance_time false
+gamerule advance_weather false
+gamerule max_block_modifications 2147483647
+
+time set day
+weather clear
+
 scoreboard objectives add game.remove_mp dummy
 scoreboard objectives add game.set_max_health dummy
 scoreboard objectives add game.spawn_random dummy
@@ -15,12 +25,14 @@ scoreboard players set $158 game.const 158
 scoreboard players set $100 game.const 100
 scoreboard players set $38 game.const 38
 scoreboard players set $25 game.const 25
+scoreboard players set $32 game.const 32
 scoreboard players set $10 game.const 10
 scoreboard players set $9 game.const 9
 scoreboard players set $7 game.const 7
 scoreboard players set $5 game.const 5
 scoreboard players set $3 game.const 3
 scoreboard players set $2 game.const 2
+scoreboard players set $1 game.const 1
 scoreboard players set $-1 game.const -1
 
 scoreboard objectives add game.spawn_timer dummy

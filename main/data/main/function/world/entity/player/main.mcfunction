@@ -10,10 +10,10 @@ execute unless score @s player.uid matches 0.. run function main:world/entity/pl
 execute if score @s player.leave_game matches 1.. run function main:game/login_msg/msg
 
 # ディスプレイ
-function main:world/entity/player/display/main
+execute unless entity @s[tag=PlayingES] run function main:world/entity/player/display/main
 
 # 進入禁止
-execute if entity @s[gamemode=adventure] unless entity @s[tag=IsInTeleportHole] unless score @s player.entered_level matches 5 unless biome ~ ~ ~ #main:playable run function main:world/entity/player/no_entry/main
+execute if entity @s[gamemode=adventure] unless entity @s[tag=IsInTeleportHole] unless entity @s[tag=PlayingES] unless score @s player.entered_level matches 5 unless biome ~ ~ ~ #main:playable run function main:world/entity/player/no_entry/main
 execute if biome ~ ~ ~ #main:playable unless score @s player.no_entry_timer matches 60.. run scoreboard players add @s player.no_entry_timer 1
 
 # vector
@@ -60,7 +60,7 @@ execute if score @s game.remove_mp matches 1.. run function main:world/entity/pl
 #scoreboard players set @s player.mp 1000
 
 # エネルギー
-execute if entity @s[gamemode=adventure] run function main:world/entity/player/energy/main
+execute if entity @s[gamemode=adventure] unless entity @s[tag=PlayingES] run function main:world/entity/player/energy/main
 function main:world/entity/player/food/main
 #effect give @s saturation 1 255 true
 
@@ -92,7 +92,7 @@ execute if score @s player.trigger.show_change_log matches 1.. run function main
 
 # pos_y
 execute store result score @s player.pos_y run data get entity @s Pos[1]
-execute if score @s player.pos_y matches 70..85 unless entity @s[tag=CantFloat] run function main:world/entity/player/float/main
+execute if score @s player.pos_y matches 70..85 unless entity @s[tag=CantFloat] unless entity @s[tag=PlayingES] run function main:world/entity/player/float/main
 
 # cant_float
 execute if entity @s[tag=CantFloat] run function main:world/entity/player/float/cant_float

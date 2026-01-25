@@ -1,5 +1,6 @@
 {
     "values": [
-        "main:tick"
+        "main:tick",
+        "es:tick"
     ]
 }
