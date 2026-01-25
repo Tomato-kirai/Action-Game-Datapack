@@ -34,7 +34,7 @@
               "lore": [
                 {
                   "text": "希少アイテム",
-                  "color": "white",
+                  "color": "dark_gray",
                   "bold": false,
                   "italic": false
                 },

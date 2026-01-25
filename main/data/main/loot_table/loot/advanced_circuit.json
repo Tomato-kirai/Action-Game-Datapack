@@ -5,24 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_slab",
+          "name": "minecraft:comparator",
+          "conditions": [],
           "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{gold_value:50}"
-            },
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "name": {
-                "text": "木の板",
-                "color": "white",
-                "bold": false,
-                "italic": false
-              }
+              "name": "高度なレッドストーン回路",
+              "target": "item_name"
             },
             {
-              "mode": "replace_all",
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
@@ -33,18 +25,17 @@
                   "italic": false
                 },
                 {
-                  "text": "原木を原料とした木材",
+                  "text": "汎用性が高い一般的な電気回路のセット",
                   "color": "gray",
                   "bold": false,
                   "italic": false
-                },
-                {
-                  "text": "価値: 100G",
-                  "color": "yellow",
-                  "bold": false,
-                  "italic": false
                 }
-              ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"advanced_circuit\"}"
             }
           ]
         }

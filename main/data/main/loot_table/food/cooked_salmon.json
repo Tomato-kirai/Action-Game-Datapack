@@ -27,7 +27,7 @@
               "lore": [
                 {
                   "text": "食料アイテム",
-                  "color": "white",
+                  "color": "dark_gray",
                   "bold": false,
                   "italic": false
                 },

@@ -5,24 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_slab",
+          "name": "minecraft:dispenser",
+          "conditions": [],
           "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{gold_value:50}"
-            },
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "name": {
-                "text": "木の板",
-                "color": "white",
-                "bold": false,
-                "italic": false
-              }
+              "name": "発射装置",
+              "target": "item_name"
             },
             {
-              "mode": "replace_all",
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
@@ -33,18 +25,17 @@
                   "italic": false
                 },
                 {
-                  "text": "原木を原料とした木材",
+                  "text": "銃の発射機構などで用いられる超小型の発射装置",
                   "color": "gray",
                   "bold": false,
                   "italic": false
-                },
-                {
-                  "text": "価値: 100G",
-                  "color": "yellow",
-                  "bold": false,
-                  "italic": false
                 }
-              ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"launcher\"}"
             }
           ]
         }
