@@ -8,4 +8,4 @@ function gun:ammo/remove_ammo
 
 function gun:interval/set_interval_from_max_interval
 
-scoreboard players set @s gun.item_damage_reducer 1
+scoreboard players set @s gun.durability_damage_reducer 1

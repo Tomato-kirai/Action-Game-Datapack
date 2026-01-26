@@ -8,7 +8,9 @@ tellraw @s [{text:"--- GUN STATUS ---"},\
 {text:"\n"},\
 {text:"リロード時間: "},{score:{name:"@s",objective:"gun.max_reload_time"}},{text:"t"},\
 {text:"\n"},\
-{text:"連射速度: "},{score:{name:"@s",objective:"gun.max_interval"}},{text:"tごと"}]
+{text:"連射速度: "},{score:{name:"@s",objective:"gun.max_interval"}},{text:"tごと"},\
+{text:"\n"},\
+{text:"耐久力: "},{score:{name:"@s",objective:"gun.durability_damage"}},{text:"/"},{score:{name:"@s",objective:"gun.max_durability_damage"}}]
 
 
 playsound item.armor.equip_leather player @a ~ ~ ~ 1 1

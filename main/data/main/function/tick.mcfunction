@@ -22,6 +22,10 @@ execute as @e[type=item] at @s run function main:world/entity/item/main
 
 #execute as @e[tag=DamageDisplay] at @s run function main:world/entity/damage_display/main
 
+execute as @e[tag=Entity.Bullet] at @s run function gun:bullet/
+
+execute as @e[tag=Entity.CrafterInv] at @s run function crafter:core/crafter_inv/main
+
 execute as @e[type=fireball] at @s run function main:world/entity/fireball/main
 
 execute as @e[tag=SpawnArea] at @s run function main:world/spawn_area/marker/tick

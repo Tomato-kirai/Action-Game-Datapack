@@ -1,4 +1,4 @@
-execute if entity @s[tag=Entity.Bullet] run function gun:bullet/
+#execute if entity @s[tag=Entity.Bullet] run function gun:bullet/
 
 execute if entity @s[tag=LootBlockMarker] run function es:world/entity/loot_block_marker/main
 

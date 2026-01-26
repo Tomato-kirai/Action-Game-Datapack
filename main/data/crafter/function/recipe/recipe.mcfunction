@@ -1,0 +1,5 @@
+# example
+#execute unless entity @s[tag=Event.CraftSuccess] if block ~ ~ ~ dropper{} at @s run function crafter:recipe/example
+
+# 棒
+execute unless entity @s[tag=Event.CraftSuccess] if block ~ ~ ~ dropper{Items: [{Slot: 0b, id: "minecraft:stick", count: 1, components: {"minecraft:custom_data": {empty: 1b}}}, {Slot: 1b, id: "minecraft:stick", count: 1, components: {"minecraft:custom_data": {id: "planks"}}}, {Slot: 2b, id: "minecraft:stick", count: 1, components: {"minecraft:custom_data": {empty: 1b}}}, {Slot: 3b, id: "minecraft:stick", count: 1, components: {"minecraft:custom_data": {empty: 1b}}}, {Slot: 4b, id: "minecraft:stick", count: 1, components: {"minecraft:custom_data": {id: "planks"}}}, {Slot: 5b, id: "minecraft:stick", count: 1, components: {"minecraft:custom_data": {empty: 1b}}}, {Slot: 6b, id: "minecraft:stick", count: 1, components: {"minecraft:custom_data": {empty: 1b}}}, {Slot: 7b, id: "minecraft:stick", count: 1, components: {"minecraft:custom_data": {id: "planks"}}}, {Slot: 8b, id: "minecraft:stick", count: 1, components: {"minecraft:custom_data": {empty: 1b}}}]} at @s run function crafter:recipe/stick/

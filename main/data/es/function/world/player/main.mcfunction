@@ -2,7 +2,7 @@
 function es:world/item/main
 
 # クラフター
-function crafter:core/player/main
+#function crafter:core/player/main
 
 # 倉庫から帰る
 execute if entity @n[tag=ItemStorageMarker,distance=..3] if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_sneaking:true}}} run scoreboard players add @s es.item_storage.return_timer 1

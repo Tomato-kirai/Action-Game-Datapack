@@ -23,8 +23,10 @@ scoreboard objectives add gun.recoil_down dummy
 scoreboard objectives add gun.first_facing dummy
 scoreboard objectives add gun.current_facing dummy
 scoreboard objectives add gun.calculated_facing dummy
+scoreboard objectives add gun.durability_damage dummy
+scoreboard objectives add gun.max_durability_damage dummy
 
-scoreboard objectives add gun.item_damage_reducer dummy
+scoreboard objectives add gun.durability_damage_reducer dummy
 
 scoreboard objectives add gun.drop_gun custom:drop
 

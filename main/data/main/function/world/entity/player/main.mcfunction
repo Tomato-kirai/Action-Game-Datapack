@@ -1,5 +1,11 @@
 #> main:world/entity/player/main
 
+#アイテム
+function main:world/item/main
+
+# クラフター
+function crafter:core/player/main
+
 # xp 129に設定
 xp set @s 129 levels
 
