@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:breeze_rod",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "軽い金属",
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "素材",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "軽量である程度の強度が必要なものに使用される金属",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"basic_metals\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

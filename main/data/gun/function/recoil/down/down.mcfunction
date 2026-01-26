@@ -5,7 +5,7 @@ scoreboard players operation @s gun.calculated_facing *= $1 game.const
 scoreboard players operation @s gun.calculated_facing -= @s gun.current_facing
 
 scoreboard players operation @s gun.recoil_down = @s gun.calculated_facing
-execute if score @s gun.calculated_facing matches ..0 run scoreboard players reset @s gun.recoil_down
+execute if score @s gun.calculated_facing matches ..0 run scoreboard players set @s gun.recoil_down 0
 
 execute if score @s gun.recoil_down matches 1 run function gun:recoil/down/1
 execute if score @s gun.recoil_down matches 2..3 run function gun:recoil/down/2
