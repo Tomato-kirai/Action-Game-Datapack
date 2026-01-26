@@ -35,7 +35,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{id:\"basic_metals\"}"
+              "tag": "{id:\"light_metal\"}"
             }
           ]
         }
