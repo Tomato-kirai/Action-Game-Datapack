@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "手荷物",
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "素材",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ここに来るために用意した荷物",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"baggage\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

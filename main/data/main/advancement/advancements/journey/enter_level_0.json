@@ -9,14 +9,6 @@
             {
               "text": "レベル0に入る",
               "color": "green"
-            },
-            {
-              "text": "報酬: ",
-              "color": "gold"
-            },
-            {
-              "text": "火の魔法の本",
-              "color": "white"
             }
           ],
           "frame": "challenge",
@@ -31,7 +23,6 @@
           }
         },
         "rewards": {
-          "function": "main:game/advancements_reward/journey/enter_level_0"
         }
       }
       

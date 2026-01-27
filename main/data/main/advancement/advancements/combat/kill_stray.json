@@ -10,14 +10,6 @@
             {
               "text": "ストレイを倒す        ",
               "color": "green"
-            },
-            {
-              "text": "報酬: ",
-              "color": "gold"
-            },
-            {
-              "text": "水の魔法の本",
-              "color": "white"
             }
           ],
           "frame": "task",
@@ -25,7 +17,7 @@
           "announce_to_chat": false,
           "hidden": false
         },
-        "parent": "main:advancements/combat/kill_entity_with_fire_book",
+        "parent": "main:advancements/combat/kill_entity",
         "criteria": {
           "requirement": {
             "trigger": "minecraft:player_killed_entity",
@@ -37,7 +29,6 @@
           }
         },
         "rewards": {
-          "function": "main:game/advancements_reward/combat/kill_stray"
         }
       }
       

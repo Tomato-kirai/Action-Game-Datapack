@@ -10,7 +10,7 @@
           "announce_to_chat": false,
           "hidden": false
         },
-        "parent": "main:advancements/root",
+        "parent": "main:advancements/collect/open_baggage",
         "criteria": {
           "xp": {
             "trigger": "minecraft:inventory_changed",

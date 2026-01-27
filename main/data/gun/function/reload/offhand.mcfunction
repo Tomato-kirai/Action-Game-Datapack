@@ -4,7 +4,7 @@ execute if items entity @s weapon.mainhand * run function gun:reload/give_item
 
 execute unless items entity @s weapon.mainhand * run function gun:reload/return_mainhand
 
-execute unless score @s gun.reload_time matches 1.. unless score @s gun.ammo = @s gun.max_ammo run function gun:reload/init
+execute unless score @s gun.reload_time matches 1.. unless score @s gun.ammo = @s gun.max_ammo if score @s gun.mag_count matches 1.. run function gun:reload/init
 
 #data modify storage temp: ammo set value 0
 
