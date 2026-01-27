@@ -10,8 +10,8 @@ execute if score @s gun.calculated_facing matches ..0 run scoreboard players set
 execute if score @s gun.recoil_down matches 1 run function gun:recoil/down/1
 execute if score @s gun.recoil_down matches 2..3 run function gun:recoil/down/2
 execute if score @s gun.recoil_down matches 4..7 run function gun:recoil/down/4
-execute if score @s gun.recoil_down matches 8.. run function gun:recoil/down/8
-#execute if score @s gun.recoil_down matches 16..31 run function gun:recoil/down/16
+execute if score @s gun.recoil_down matches 8..15 run function gun:recoil/down/8
+execute if score @s gun.recoil_down matches 16.. run function gun:recoil/down/16
 #execute if score @s gun.recoil_down matches 32..63 run function gun:recoil/down/32
 #execute if score @s gun.recoil_down matches 64..127 run function gun:recoil/down/64
 #execute if score @s gun.recoil_down matches 128..255 run function gun:recoil/down/128
