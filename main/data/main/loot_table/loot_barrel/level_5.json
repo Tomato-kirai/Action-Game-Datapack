@@ -42,6 +42,24 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:loot_barrel/common/ammo"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "main:loot_barrel/common/metal"
+        }
+      ]
     }
   ]
 }
