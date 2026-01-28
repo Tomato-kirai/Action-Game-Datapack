@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:iron_axe",
           "conditions": [],
           "functions": [
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "name": "柔らかい金属",
+              "name": "収集用斧",
               "target": "item_name"
             },
             {
@@ -19,26 +19,14 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "素材",
+                  "text": "道具",
                   "color": "dark_gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text": "世界を構築する基本的な金属",
+                  "text": "樽を漁るための斧",
                   "color": "gray",
-                  "bold": false,
-                  "italic": false
-                },
-                {
-                  "text": "柔軟性が求められたり形を整える部分に使用される金属",
-                  "color": "gray",
-                  "bold": false,
-                  "italic": false
-                },
-                {
-                  "text": "価値: 100G",
-                  "color": "yellow",
                   "bold": false,
                   "italic": false
                 }
@@ -47,7 +35,22 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{id:\"soft_metal\",gold_value:100}"
+              "tag": "{id:\"collection_axe\"}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:can_break": {
+                  "blocks": "minecraft:barrel"
+                }
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false,
+                "minecraft:unbreakable": false
+              }
             }
           ]
         }

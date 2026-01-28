@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:gun/guardian",
+          "value": "main:loot/collection_axe",
           "conditions": [],
           "functions": [
             {

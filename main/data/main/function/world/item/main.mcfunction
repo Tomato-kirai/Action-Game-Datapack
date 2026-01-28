@@ -1,5 +1,6 @@
 execute if items entity @s weapon.mainhand *[custom_data~{id:"guardian"}] run function main:world/item/gun/guardian/
 execute if items entity @s weapon.mainhand *[custom_data~{id:"breeze"}] run function main:world/item/gun/breeze/
+execute if items entity @s weapon.mainhand *[custom_data~{id:"infantry"}] run function main:world/item/gun/infantry/
 
 execute if entity @s[tag=Event.UsingGun] run tag @s remove Event.UsingGun
 execute if entity @s[tag=Event.ShootGun] run tag @s remove Event.ShootGun

@@ -132,6 +132,11 @@ scoreboard players set $const player.damage_dealt 10
 scoreboard objectives add player.damage_taken custom:damage_taken
 scoreboard players set $const player.damage_taken 10
 
+scoreboard objectives add player.damage_absorbed custom:damage_absorbed
+
+scoreboard objectives add player.shield dummy
+scoreboard objectives add player.shield_regen_timer dummy
+
 scoreboard objectives add interaction.life dummy
 scoreboard objectives add health_display.life dummy
 scoreboard objectives add status_display.owner dummy
