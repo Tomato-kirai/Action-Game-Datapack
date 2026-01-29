@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_axe",
+          "name": "minecraft:stick",
           "conditions": [],
           "functions": [
             {
@@ -25,7 +25,7 @@
                   "italic": false
                 },
                 {
-                  "text": "樽を漁るための斧",
+                  "text": "樽やアメジストを漁るための斧",
                   "color": "gray",
                   "bold": false,
                   "italic": false
@@ -41,15 +41,36 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:can_break": {
-                  "blocks": "minecraft:barrel"
-                }
+                  "blocks": [
+                    "minecraft:barrel",
+                    "minecraft:amethyst_block"
+                  ]
+                },
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "minecraft:amethyst_block",
+                      "speed": 6,
+                      "correct_for_drops": false
+                    },
+                    {
+                      "blocks": "minecraft:barrel",
+                      "speed": 12,
+                      "correct_for_drops": false
+                    }
+                  ],
+                  "default_mining_speed": 1,
+                  "damage_per_block": 1
+                },
+                "minecraft:item_model": "minecraft:iron_axe",
+                "minecraft:max_stack_size": 1
               }
             },
             {
               "function": "minecraft:toggle_tooltips",
               "toggles": {
                 "minecraft:attribute_modifiers": false,
-                "minecraft:unbreakable": false
+                "minecraft:can_break": false
               }
             }
           ]

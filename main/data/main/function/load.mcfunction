@@ -176,6 +176,10 @@ scoreboard objectives add setting.status_display_distance dummy
 scoreboard objectives add loot_marker.timer dummy
 #scoreboard objectives add loot_marker.random dummy
 
+scoreboard objectives add gem_ore.timer dummy
+scoreboard objectives add gem_ore.grace dummy
+scoreboard objectives add gem_ore.mine_count dummy
+scoreboard objectives add gem_ore.continuous_mine_count dummy
 
 scoreboard objectives add quest.combat.poison_slime_kill_count dummy
 

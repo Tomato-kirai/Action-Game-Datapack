@@ -32,6 +32,8 @@ execute as @e[tag=SpawnArea] at @s run function main:world/spawn_area/marker/tic
 
 execute as @e[tag=LootMarker] at @s if entity @p[distance=..64] run function main:world/loot_marker/main
 
+execute as @e[tag=GemOre] at @s if entity @p[distance=..64] run function main:world/gem_ore/main
+
 execute as @e[type=text_display] if entity @s[tag=DamageDisplay] at @s run function main:world/entity/damage_display/main
 
 execute as @e[type=text_display] if entity @s[tag=HealthDisplay] at @s run function main:world/entity/health_display/main

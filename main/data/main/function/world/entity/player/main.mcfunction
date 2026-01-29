@@ -47,10 +47,6 @@ execute if score @s player.villager_talking_timer matches 1.. run function main:
 # 村人とのお話をリセット
 execute if score @s player.villager_talking_timer matches 1.. unless entity @e[tag=Villager,distance=..3.5] run function main:world/entity/player/talked_to_villager/reset
 
-# シールド
-function main:world/entity/player/shield/
-execute if score @s player.damage_absorbed matches 1.. run function main:world/entity/player/shield/damage_absorbed
-
 # ダメージを受ける・ダメージを与える
 execute if score @s player.damage_taken matches 1.. run function main:world/entity/player/set_max_health/damage_taken
 execute if score @s player.damage_dealt matches 1.. run function main:world/entity/player/damage_dealt/main
