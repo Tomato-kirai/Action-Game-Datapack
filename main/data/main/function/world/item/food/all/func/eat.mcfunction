@@ -11,3 +11,5 @@ scoreboard players reset @s item.food.energy_value
 item modify entity @s weapon.mainhand main:remove
 
 scoreboard players set @s item.food.eat_cooldown 40
+
+execute if score @s player.tutorial.achievable matches 6 run advancement grant @s only main:advancements/tutorial/tutorial6

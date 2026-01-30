@@ -8,7 +8,7 @@
           },
           "description": [
             {
-              "text": "ストレイを倒す        ",
+              "text": "ストレイを倒す",
               "color": "green"
             }
           ],
@@ -17,7 +17,7 @@
           "announce_to_chat": false,
           "hidden": false
         },
-        "parent": "main:advancements/combat/kill_entity",
+        "parent": "main:advancements/combat/root",
         "criteria": {
           "requirement": {
             "trigger": "minecraft:player_killed_entity",

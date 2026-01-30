@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": "チュートリアル2",
+    "description": "レベル0に入る",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "main:advancements/tutorial/tutorial1",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "player.tutorial.achievable": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:game/quest/end/tutorial/tutorial2"
+  }
+}

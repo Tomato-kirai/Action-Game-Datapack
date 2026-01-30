@@ -10,7 +10,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "main:advancements/combat/kill_entity",
+  "parent": "main:advancements/combat/kill_stray",
   "criteria": {
     "assault": {
       "trigger": "minecraft:player_killed_entity",

@@ -1,0 +1,1 @@
+execute if score @s player.tutorial.mine_barrel matches 1.. run function main:world/entity/player/tutorial/tutorial5/mine_barrel

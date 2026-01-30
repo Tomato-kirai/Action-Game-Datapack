@@ -137,6 +137,10 @@ scoreboard objectives add player.damage_absorbed custom:damage_absorbed
 scoreboard objectives add player.shield dummy
 scoreboard objectives add player.shield_regen_timer dummy
 
+scoreboard objectives add player.tutorial.progress dummy
+scoreboard objectives add player.tutorial.achievable dummy
+scoreboard objectives add player.tutorial.mine_barrel minecraft.mined:barrel
+
 scoreboard objectives add interaction.life dummy
 scoreboard objectives add health_display.life dummy
 scoreboard objectives add status_display.owner dummy

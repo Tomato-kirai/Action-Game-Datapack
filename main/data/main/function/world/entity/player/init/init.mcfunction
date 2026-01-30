@@ -29,4 +29,10 @@ scoreboard players set @s player.gold 0
 
 scoreboard players set @s player.max_entered_level 0
 
-loot give @s loot main:baggage
+tag @s add Tutorial
+
+scoreboard players reset @s player.tutorial.achievable
+
+function main:world/entity/player/tutorial/tutorial1/first
+
+scoreboard players set @s player.tutorial.progress 1

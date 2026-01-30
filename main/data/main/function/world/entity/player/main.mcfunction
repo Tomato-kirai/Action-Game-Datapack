@@ -44,9 +44,6 @@ execute if score @s player.talked_to_villager matches 1.. run function main:worl
 # 村人とお話中
 execute if score @s player.villager_talking_timer matches 1.. run function main:world/entity/player/talked_to_villager/talking
 
-# 村人とのお話をリセット
-execute if score @s player.villager_talking_timer matches 1.. unless entity @e[tag=Villager,distance=..3.5] run function main:world/entity/player/talked_to_villager/reset
-
 # ダメージを受ける・ダメージを与える
 execute if score @s player.damage_taken matches 1.. run function main:world/entity/player/set_max_health/damage_taken
 execute if score @s player.damage_dealt matches 1.. run function main:world/entity/player/damage_dealt/main
@@ -86,9 +83,11 @@ execute if predicate main:item/magic_book/has_book positioned ~ ~-0.5 ~ anchored
 execute if entity @s[tag=HasTelepearl] unless predicate main:item/utility/telepearl/has_telepearl run function main:world/item/utility/telepearl/func/reset
 execute if score @s item.telepearl.exit_location matches 0.. run function main:world/item/utility/telepearl/func/teleport/teleport_hole/main
 
-
 # リスポーンタイマー (初期化・再計算処理の遅延)
 execute if score @s player.respawn_timer matches 0.. run function main:world/entity/player/death/respawn_timer
+
+# チュートリアル
+execute if entity @s[tag=Tutorial] run function main:world/entity/player/tutorial/main
 
 #チェンジログクリア
 execute if score @s player.trigger.clear_change_log matches 1.. run function main:pack/change_log/clear_change_log

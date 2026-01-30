@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": "チュートリアル1",
+    "description": "手荷物をクラフトする",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "main:advancements/root",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "player.tutorial.achievable": 1
+            }
+          }
+        ],
+        "items": [
+          {
+            "predicates": {
+              "custom_data": "{id:\"guardian\"}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:game/quest/end/tutorial/tutorial1"
+  }
+}

@@ -20,4 +20,4 @@ scoreboard players set @s player.entered_level 0
 
 function main:world/level/init/player
 
-advancement grant @s only main:advancements/journey/enter_level_0
+execute if score @s player.tutorial.achievable matches 2 run advancement grant @s only main:advancements/tutorial/tutorial2

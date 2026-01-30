@@ -10,14 +10,6 @@
             {
               "text": "アローを倒す   ",
               "color": "green"
-            },
-            {
-              "text": "報酬: ",
-              "color": "gold"
-            },
-            {
-              "text": "矢の魔法の本",
-              "color": "white"
             }
           ],
           "frame": "task",

@@ -35,7 +35,7 @@
           "announce_to_chat": false,
           "hidden": true
         },
-        "parent": "main:advancements/combat/kill_entity_with_fire_book",
+        "parent": "main:advancements/combat/root",
         "criteria": {
           "kill": {
             "trigger": "minecraft:player_killed_entity",

@@ -15,7 +15,7 @@
           "announce_to_chat": false,
           "hidden": false
         },
-        "parent": "main:advancements/journey/enter_level_0",
+        "parent": "main:advancements/journey/root",
         "criteria": {
           "requirement": {
             "trigger": "minecraft:impossible"

@@ -1,6 +1,6 @@
 #> main:game/login_msg/msg
 
-tellraw @s [{"text": "魔法使いさん、おかえりなさい！"}]
+tellraw @s [{"text": "旅人さん、おかえりなさい!"}]
 function main:pack/version
 function main:pack/change_log/last
 

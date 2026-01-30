@@ -15,7 +15,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "main:advancements/collect/pickup_xp_and_gold",
+  "parent": "main:advancements/collect/root",
   "criteria": {
     "xp": {
       "trigger": "minecraft:inventory_changed",
