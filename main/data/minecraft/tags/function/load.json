@@ -3,6 +3,7 @@
         "main:load",
         "es:load",
         "crafter:load",
-        "gun:load"
+        "gun:load",
+        "shop:load"
     ]
 }

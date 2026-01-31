@@ -22,7 +22,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "main:loot/collection_axe",
+          "value": "main:utility/collection_axe",
           "conditions": [],
           "functions": [
             {

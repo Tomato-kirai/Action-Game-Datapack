@@ -1,0 +1,4 @@
+item replace entity @s container.10 with stick[lore=[{"bold":false,"color":"gold","italic":false,"text":"500G"}],item_name="ガーディアン",item_model="iron_hoe",custom_data={shop_slot:1b,buyable:1b,price:500,loot_table:"main:gun/guardian"}]
+item replace entity @s container.12 with stick[lore=[{"bold":false,"color":"gold","italic":false,"text":"100G"}],item_name="収集用斧",item_model="iron_axe",custom_data={shop_slot:1b,buyable:1b,price:100,loot_table:"main:utility/collection_axe"}]
+item replace entity @s container.14 with stick[lore=[{"bold":false,"color":"gold","italic":false,"text":"100G"}],item_name="ポータル",item_model="music_disc_mall",custom_data={shop_slot:1b,buyable:1b,price:100,loot_table:"main:utility/portal"}]
+item replace entity @s container.16 with stick[lore=[{"bold":false,"color":"gold","italic":false,"text":"50G"}],item_name="林檎",item_model="apple",custom_data={shop_slot:1b,buyable:1b,price:50,loot_table:"main:food/apple"}]

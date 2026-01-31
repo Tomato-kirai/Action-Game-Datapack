@@ -1,7 +1,10 @@
 #> main:world/entity/player/main
 
-#アイテム
+# アイテム
 function main:world/item/main
+
+# ショップ
+function shop:core/player/main
 
 # クラフター
 function crafter:core/player/main
