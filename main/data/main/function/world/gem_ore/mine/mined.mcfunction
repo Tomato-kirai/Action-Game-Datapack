@@ -1,4 +1,4 @@
-kill @n[type=item,nbt={Item:{id:"minecraft:amethyst_block"}}]
+kill @n[type=item,nbt={Item:{id:"minecraft:pearlescent_froglight"}}]
 
 scoreboard players add @s gem_ore.mine_count 1
 execute if score @s gem_ore.grace matches 1.. run scoreboard players add @s gem_ore.continuous_mine_count 1
@@ -9,5 +9,5 @@ execute if score @s gem_ore.continuous_mine_count matches 2 run loot spawn ~ ~ ~
 
 scoreboard players set @s gem_ore.grace 40
 
-execute if score @s gem_ore.mine_count matches ..2 run setblock ~ ~ ~ amethyst_block
+execute if score @s gem_ore.mine_count matches ..2 run setblock ~ ~ ~ pearlescent_froglight
 execute if score @s gem_ore.mine_count matches 3.. run function main:world/gem_ore/mine/break

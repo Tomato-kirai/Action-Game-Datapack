@@ -43,14 +43,14 @@
                 "minecraft:can_break": {
                   "blocks": [
                     "minecraft:barrel",
-                    "minecraft:amethyst_block"
+                    "minecraft:pearlescent_froglight"
                   ]
                 },
                 "minecraft:tool": {
                   "rules": [
                     {
-                      "blocks": "minecraft:amethyst_block",
-                      "speed": 6,
+                      "blocks": "minecraft:pearlescent_froglight",
+                      "speed": 0.5,
                       "correct_for_drops": false
                     },
                     {
