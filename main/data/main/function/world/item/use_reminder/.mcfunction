@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand *[custom_data~{id:"use_reminder"}] run function main:world/item/use_reminder/replace_mainhand with entity @s SelectedItem.components.minecraft:custom_data
+execute if items entity @s weapon.offhand *[custom_data~{id:"use_reminder"}] run function main:world/item/use_reminder/replace_offhand with entity @s equipment.offhand.components."minecraft:custom_data"
