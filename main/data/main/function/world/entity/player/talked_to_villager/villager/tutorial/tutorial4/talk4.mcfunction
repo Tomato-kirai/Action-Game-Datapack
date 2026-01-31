@@ -1,4 +1,4 @@
-tellraw @a {text:"経験値とゴールドを拾って強くなりましょう"}
+tellraw @a {text:"<天の声> 経験値とゴールドを拾って強くなりましょう"}
 playsound ui.button.click player @s ~ ~ ~ 1 2
 
 scoreboard players set @s player.tutorial.achievable 4

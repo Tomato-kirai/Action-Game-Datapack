@@ -1,2 +1,2 @@
-tellraw @a {text:"エネルギーが少なすぎると足が遅くなったり弱体化します"}
+tellraw @a {text:"<天の声> エネルギーが少なすぎると足が遅くなったり弱体化します"}
 playsound ui.button.click player @s ~ ~ ~ 1 2
