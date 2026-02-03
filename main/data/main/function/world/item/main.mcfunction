@@ -2,6 +2,7 @@
 execute if items entity @s weapon.mainhand *[custom_data~{id:"guardian"}] run function main:world/item/gun/guardian/
 execute if items entity @s weapon.mainhand *[custom_data~{id:"breeze"}] run function main:world/item/gun/breeze/
 execute if items entity @s weapon.mainhand *[custom_data~{id:"infantry"}] run function main:world/item/gun/infantry/
+execute if items entity @s weapon.mainhand *[custom_data~{id:"scout"}] run function main:world/item/gun/scout/
 
 # use_reminder
 #execute if items entity @s weapon.mainhand *[custom_data~{id:"use_reminder"}] run function main:world/item/use_reminder/
