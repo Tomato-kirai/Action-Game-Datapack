@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "増強薬",
+                "color": "white",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "道具",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "心肺の機能が一時的に上昇し体力が増える魔法の薬",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"boost_potion\"}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:potion_contents"
+                  ]
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "drink",
+                  "sound": "minecraft:entity.generic.drink",
+                  "has_consume_particles": false,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:health_boost",
+                          "amplifier": 1,
+                          "duration": 1200
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:potion_contents": {
+                  "custom_color": 3542359
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

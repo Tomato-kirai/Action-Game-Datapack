@@ -1,7 +1,7 @@
 $loot spawn ~ ~ ~ loot $(loot_table)
-tp @n[type=item,distance=..0.1] @p
-data modify entity @n[type=item,distance=..0.1] Owner set from entity @p UUID
-data modify entity @n[type=item,distance=..0.1] PickupDelay set value 0
+tp @e[type=item,distance=..0.1] @p
+execute as @e[type=item,distance=..0.1] run data modify entity @s Owner set from entity @p UUID
+execute as @e[type=item,distance=..0.1] run data modify entity @s PickupDelay set value 0
 
 
 # advancements
