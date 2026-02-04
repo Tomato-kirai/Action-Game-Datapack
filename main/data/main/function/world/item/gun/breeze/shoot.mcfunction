@@ -5,7 +5,7 @@ playsound entity.iron_golem.hurt player @a ~ ~ ~ 1 2
 playsound block.note_block.bit player @a ~ ~ ~ 1 1.5
 playsound item.trident.throw player @a ~ ~ ~ 0.5 2
 
-scoreboard players add @s gun.recoil 25
+scoreboard players add @s gun.recoil 15
 function gun:recoil/up/init
 
 #say a

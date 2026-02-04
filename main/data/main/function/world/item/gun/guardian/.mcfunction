@@ -1,10 +1,10 @@
 scoreboard players set @s gun.body_damage 8
 scoreboard players set @s gun.head_damage 16
-scoreboard players set @s gun.max_interval 5
+scoreboard players set @s gun.max_interval 4
 scoreboard players set @s gun.max_ammo 8
 scoreboard players set @s gun.max_reload_time 50
-scoreboard players set @s gun.bullet_age 8
-scoreboard players set @s gun.max_bullet_move_count 30
+scoreboard players set @s gun.bullet_age 10
+scoreboard players set @s gun.max_bullet_move_count 25
 scoreboard players set @s gun.accuracy_x1 -300
 scoreboard players set @s gun.accuracy_x2 300
 scoreboard players set @s gun.accuracy_y1 -300
