@@ -12,6 +12,8 @@ execute if predicate main:looking_at/potion_shop run scoreboard players set @s p
 
 execute if predicate main:looking_at/world_trader run scoreboard players set @s player.talking_villager_type 6
 
+execute if predicate main:looking_at/hideout_weaponsmith run scoreboard players set @s player.talking_villager_type 7
+
 scoreboard players reset @s player.talked_to_villager
 
 scoreboard players set @s player.villager_talking_timer 1
