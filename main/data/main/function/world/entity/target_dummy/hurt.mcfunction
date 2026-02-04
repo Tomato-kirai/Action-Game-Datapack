@@ -1,0 +1,1 @@
+execute as @p run tellraw @s [{text:"> "},{score:{name:"@s",objective:"target_dummy.c_health"}},{text:"ダメージ"}]

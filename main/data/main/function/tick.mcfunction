@@ -44,6 +44,9 @@ execute as @e if entity @s[tag=Villager] at @s if entity @p[distance=..6] run fu
 
 execute as @e[tag=PurpleBlockMeteor] at @s run function main:world/item/magic_book/block_book/func/purple_block_meteor/main
 
+function main:world/entity/target_dummy/
+execute as @e[tag=TargetDummy] at @s run function main:world/entity/target_dummy/main
+
 execute as @e[type=marker] at @s run function main:world/entity/marker/main
 
 execute as @e[type=experience_orb] run kill @s
@@ -51,6 +54,5 @@ execute as @e[type=experience_orb] run kill @s
 execute as @e[tag=MagicHit] run tag @s remove MagicHit
 
 execute as @e[tag=this] run tag @s remove this
-
 
 #title @a actionbar "Ticked"

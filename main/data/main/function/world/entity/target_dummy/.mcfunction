@@ -1,0 +1,4 @@
+execute if loaded -22 -59 120 unless entity @e[tag=TargetDummy,tag=ID.1] run summon snow_golem -22 -59 120 {Tags:["TargetDummy","ID.1"],attributes:[{id:max_health,base:1000}],Health:1000,NoAI:1b,DeathLootTable:""}
+execute if loaded -23 -59 115 unless entity @e[tag=TargetDummy,tag=ID.2] run summon snow_golem -23 -59 115 {Tags:["TargetDummy","ID.2"],attributes:[{id:max_health,base:1000}],Health:1000,NoAI:1b,DeathLootTable:""}
+execute if loaded -24 -59 100 unless entity @e[tag=TargetDummy,tag=ID.3] run summon snow_golem -24 -59 100 {Tags:["TargetDummy","ID.3"],attributes:[{id:max_health,base:1000}],Health:1000,NoAI:1b,DeathLootTable:""}
+execute if loaded -25 -59 75 unless entity @e[tag=TargetDummy,tag=ID.4] run summon snow_golem -25 -59 75 {Tags:["TargetDummy","ID.4"],attributes:[{id:max_health,base:1000}],Health:1000,NoAI:1b,DeathLootTable:""}

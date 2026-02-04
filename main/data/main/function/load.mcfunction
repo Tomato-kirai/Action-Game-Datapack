@@ -3,6 +3,7 @@
 # d = delay
 # t = temp
 # g = get
+# c = calculated
 
 gamerule spawn_mobs false
 gamerule keep_inventory true
@@ -167,6 +168,10 @@ scoreboard objectives add damage_display.age dummy
 scoreboard objectives add purple_block_meteor.move_count dummy
 scoreboard objectives add purple_block_meteor.damage dummy
 scoreboard objectives add purple_block_meteor.owner dummy
+
+scoreboard objectives add target_dummy.health dummy
+scoreboard objectives add target_dummy.d_health dummy
+scoreboard objectives add target_dummy.c_health dummy
 
 scoreboard objectives add setting.send_level_enter_log dummy
 scoreboard objectives add setting.send_damaged_log dummy
