@@ -27,6 +27,8 @@ scoreboard players set @s setting.status_display_distance 3
 
 scoreboard players set @s player.gold 0
 
+scoreboard players set @s player.weapon_point 0
+
 scoreboard players set @s player.max_entered_level 0
 
 tag @s add Tutorial

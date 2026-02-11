@@ -1,3 +1,3 @@
-playsound entity.elder_guardian.curse player @a ~ ~ ~ 1 2
+playsound entity.elder_guardian.curse player @s ~ ~ ~ 1 2
 
-tellraw @a {text:"> 敵に妨害されています"}
+tellraw @s {text:"> 敵に妨害されています"}
