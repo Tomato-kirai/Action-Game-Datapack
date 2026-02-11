@@ -65,6 +65,9 @@ execute if score @s player.mp matches 800..999 unless score @s game.remove_mp ma
 execute if score @s game.remove_mp matches 1.. run function main:world/entity/player/remove_mp/remove
 #scoreboard players set @s player.mp 1000
 
+#wp
+function main:world/entity/player/weapon_point/
+
 # エネルギー
 execute if entity @s[gamemode=adventure] unless entity @s[tag=PlayingES] run function main:world/entity/player/energy/main
 function main:world/entity/player/food/main

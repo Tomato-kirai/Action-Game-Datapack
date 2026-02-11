@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{food:1b,energy_value:50000,gold_value:10}"
+              "tag": "{food:1b,energy_value:80000,gold_value:10}"
             },
             {
               "function": "minecraft:set_name",
@@ -39,7 +39,7 @@
                   "italic": false
                 },
                 {
-                  "text": "エネルギー: +5%",
+                  "text": "エネルギー: +8%",
                   "color": "green",
                   "bold": false,
                   "italic": false

@@ -1,4 +1,4 @@
-tellraw @a {text:"<天の声> 樽を壊しましょう"}
+tellraw @s {text:"<天の声> 樽を壊しましょう"}
 playsound ui.button.click player @s ~ ~ ~ 1 2
 
 scoreboard players set @s player.tutorial.achievable 5

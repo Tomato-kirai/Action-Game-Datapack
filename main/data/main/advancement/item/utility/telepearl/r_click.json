@@ -16,7 +16,7 @@
                 }
               ],
               "item": {
-                "predicates":{"custom_data": "{telepearl:1b}"}
+                "predicates":{"custom_data": "{id:\"telepearl\"}"}
               },
               "entity": {
                 "nbt": "{Tags:[\"TelepearlInteraction\"]}"

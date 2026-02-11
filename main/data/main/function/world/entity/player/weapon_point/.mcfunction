@@ -1,0 +1,2 @@
+execute if score @s player.weapon_point matches 1001.. run scoreboard players set @s player.weapon_point 0
+execute unless score @s player.weapon_point matches 1.. run scoreboard players set @s player.weapon_point 0

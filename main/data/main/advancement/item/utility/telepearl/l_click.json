@@ -23,7 +23,7 @@
                       "predicate": {
                         "equipment": {
                           "mainhand": {
-                            "predicates":{"custom_data": "{telepearl:1b}"}
+                            "predicates":{"custom_data": "{id:\"telepearl\"}"}
                           }
                         }
                       }
@@ -38,7 +38,7 @@
           }
         },
         "rewards": {
-          "function": "main:world/item/utility/telepearl/func/teleport/teleport"
+          "function": "main:world/item/utility/telepearl/func/teleport/use"
         }
       }
       

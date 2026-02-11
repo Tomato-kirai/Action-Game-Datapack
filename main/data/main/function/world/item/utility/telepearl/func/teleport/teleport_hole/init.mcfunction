@@ -14,8 +14,6 @@ function main:world/entity/player/remove_all_boss_attacked_tag/remove
 
 scoreboard players set @s player.entered_level -1
 
-clear @s *[custom_data={telepearl:1b}] 1
-
 tellraw @a [{"text":"> ","color":"white","bold":false,"italic":false},{"selector":"@s"},{"text":"がレベル"},{"score":{"name":"@s","objective":"item.telepearl.exit_location"},"bold":false,"italic":false},{"text":"付近へテレポートします"}]
 
 tag @s add IsInTeleportHole

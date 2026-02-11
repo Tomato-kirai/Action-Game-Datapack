@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"Monster\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "function": "main:world/entity/player/weapon_point/hurt_monster"
+  }
+}

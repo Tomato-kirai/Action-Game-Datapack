@@ -1,4 +1,4 @@
-tellraw @a {text:"<天の声> では、頑張って生きなさい!"}
+tellraw @s {text:"<天の声> では、頑張って生きなさい!"}
 playsound ui.button.click player @s ~ ~ ~ 1 2
 
 advancement grant @s only main:advancements/tutorial/tutorial7

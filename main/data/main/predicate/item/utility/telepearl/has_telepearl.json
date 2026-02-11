@@ -5,7 +5,7 @@
     "equipment": {
       "mainhand": {
         "predicates": {
-          "minecraft:custom_data": "{telepearl:1b}"
+          "minecraft:custom_data": "{id:\"telepearl\"}"
         }
       }
     }

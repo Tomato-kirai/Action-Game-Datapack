@@ -35,7 +35,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": "{id:\"guardian\",gundata:{interval:0,ammo:8,reload_time:0},max_damage:100,damage:100}",
+                "minecraft:custom_data": "{id:\"guardian\",gundata:{interval:0,ammo:8,reload_time:0},max_damage:200,damage:200}",
                 "minecraft:consumable": {
                   "consume_seconds": 2147483647,
                   "animation": "none",
