@@ -92,6 +92,9 @@ execute if score @s item.telepearl.exit_location matches 0.. run function main:w
 # リスポーンタイマー (初期化・再計算処理の遅延)
 execute if score @s player.respawn_timer matches 0.. run function main:world/entity/player/death/respawn_timer
 
+# アビリティークールタイム
+execute if score @s player.ability_cooltime matches 1.. run function main:world/entity/player/ability_cooltime/
+
 # チュートリアル
 execute if entity @s[tag=Tutorial] run function main:world/entity/player/tutorial/main
 

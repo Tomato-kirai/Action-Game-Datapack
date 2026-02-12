@@ -122,6 +122,7 @@ scoreboard objectives add player.d_moving_distance dummy
 scoreboard objectives add player.t_moving_distance dummy
 
 scoreboard objectives add player.weapon_point dummy
+scoreboard objectives add player.ability_cooltime dummy
 
 scoreboard objectives add player.magic_book.fire.shift_cooldown dummy
 scoreboard objectives add player.magic_book.wind.shift_cooldown dummy

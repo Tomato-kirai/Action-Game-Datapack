@@ -1,0 +1,1 @@
+execute unless score @s player.ability_cooltime matches 1.. run function main:world/item/post_piercing_attack/ability/register
