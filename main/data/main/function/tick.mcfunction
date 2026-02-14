@@ -44,6 +44,8 @@ execute as @e if entity @s[tag=Villager] at @s if entity @p[distance=..6] run fu
 
 execute as @e[tag=PurpleBlockMeteor] at @s run function main:world/item/magic_book/block_book/func/purple_block_meteor/main
 
+execute as @e[tag=InfantryGrenade] at @s run function main:world/item/gun/infantry/ability/
+
 function main:world/entity/target_dummy/
 execute as @e[tag=TargetDummy] at @s run function main:world/entity/target_dummy/main
 
