@@ -26,6 +26,7 @@ scoreboard objectives add gun.calculated_facing dummy
 scoreboard objectives add gun.durability_damage dummy
 scoreboard objectives add gun.max_durability_damage dummy
 scoreboard objectives add gun.mag_count dummy
+scoreboard objectives add gun.burst_time dummy
 
 scoreboard objectives add gun.durability_damage_reducer dummy
 

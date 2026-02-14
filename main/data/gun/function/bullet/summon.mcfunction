@@ -1,4 +1,4 @@
-summon marker ~ ~ ~ {Tags:["Entity.Bullet","Tag.IsInShooter","ES"],data:{body_damage:1,head_damage:1}}
+summon marker ~ ~ ~ {Tags:["Entity.Bullet","ES"],data:{body_damage:0,head_damage:0}}
 
 function gun:bullet/copy_data
 

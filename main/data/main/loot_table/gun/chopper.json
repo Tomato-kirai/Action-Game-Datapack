@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {"text": "チョッパ","color": "white"}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "武器",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "バースト射撃で敵を制圧するアサルトライフル",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{id:\"chopper\",gundata:{interval:0,ammo:27,reload_time:0},max_damage:900,damage:900}",
+                "item_model":"iron_hoe",
+                "minecraft:unbreakable": {
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "none",
+                  "sound": "intentionally_empty"
+                },
+                "piercing_weapon":{},
+                "attack_range": {
+                  "min_reach": 0,
+                  "max_reach": 0,
+                  "hitbox_margin": 0,
+                  "mob_factor": 0,
+                  "min_creative_reach": 0,
+                  "max_creative_reach": 0
+                },
+                "enchantments": {
+                  "main:post_piercing_attack": 1
+                },
+                "enchantment_glint_override": false
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false,
+                "minecraft:unbreakable": false,
+                "enchantments": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

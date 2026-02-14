@@ -1,1 +1,2 @@
 execute if items entity @s weapon.mainhand *[custom_data~{id:"guardian"}] if score @s player.weapon_point matches 250.. run function main:world/item/gun/guardian/ability/use
+execute if items entity @s weapon.mainhand *[custom_data~{id:"chopper"}] if score @s player.weapon_point matches 300.. run function main:world/item/gun/chopper/ability/use
