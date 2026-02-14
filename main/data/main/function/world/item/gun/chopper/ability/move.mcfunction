@@ -1,6 +1,6 @@
 tag @s add this
 
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @n[dx=0,dy=8,tag=!Entity.Bullet,tag=!this,type=!experience_orb,type=!item,nbt=!{Invulnerable:1b}] if data entity @s Health run damage @s 10 gun:bullet by @p[tag=this]
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @n[dx=0,dy=8,tag=!Entity.Bullet,tag=!this,type=!experience_orb,type=!item,nbt=!{Invulnerable:1b}] if data entity @s Health run damage @s 10 main:magic by @p[tag=this]
 
 tag @s remove this
 
