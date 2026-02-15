@@ -27,8 +27,10 @@ scoreboard players set $100 game.const 100
 scoreboard players set $38 game.const 38
 scoreboard players set $25 game.const 25
 scoreboard players set $32 game.const 32
+scoreboard players set $16 game.const 16
 scoreboard players set $10 game.const 10
 scoreboard players set $9 game.const 9
+scoreboard players set $8 game.const 8
 scoreboard players set $7 game.const 7
 scoreboard players set $5 game.const 5
 scoreboard players set $3 game.const 3
@@ -70,18 +72,6 @@ scoreboard objectives add player.vector.v_y dummy
 scoreboard objectives add player.vector.v_z dummy
 scoreboard objectives add player.vector.v3 dummy
 scoreboard objectives add player.vector.v3_temp dummy
-scoreboard objectives add player.vector.v_temp dummy
-scoreboard players set $10000 player.vector.v_temp 10000
-scoreboard players set $1000 player.vector.v_temp 1000
-scoreboard players set $100 player.vector.v_temp 100
-scoreboard players set $50 player.vector.v_temp 50
-scoreboard players set $25 player.vector.v_temp 25
-scoreboard players set $10 player.vector.v_temp 10
-scoreboard players set $8 player.vector.v_temp 8
-scoreboard players set $5 player.vector.v_temp 5
-scoreboard players set $2 player.vector.v_temp 2
-scoreboard players set $-10 player.vector.v_temp -10
-scoreboard players set $-20 player.vector.v_temp -20
 
 scoreboard objectives add player.status.xp_required dummy
 scoreboard players set $const player.status.xp_required 32

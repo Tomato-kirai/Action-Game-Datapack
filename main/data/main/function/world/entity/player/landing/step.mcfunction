@@ -14,8 +14,8 @@ scoreboard players operation $x player_motion.api.launch = @s player.vector.v_x
 scoreboard players set $y player_motion.api.launch 0
 scoreboard players operation $z player_motion.api.launch = @s player.vector.v_z
 
-scoreboard players operation $x player_motion.api.launch *= $8 player.vector.v_temp
-scoreboard players operation $z player_motion.api.launch *= $8 player.vector.v_temp
+scoreboard players operation $x player_motion.api.launch *= $8 game.const
+scoreboard players operation $z player_motion.api.launch *= $8 game.const
 
 function player_motion:api/launch_xyz
 
