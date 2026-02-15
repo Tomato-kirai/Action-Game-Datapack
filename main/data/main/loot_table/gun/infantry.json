@@ -11,7 +11,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "target": "item_name",
-              "name": "インファントリー"
+              "name": {"text": "インファントリー","color": "white"}
             },
             {
               "function": "minecraft:set_lore",
